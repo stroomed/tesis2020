@@ -39,22 +39,26 @@
 
 
 ### Problema u oportunidad
-
+Existe la oportunidad complementar un trabajo previo hecho por un desarrollador, el cual consiste en desarrillar un API que complemente la funcion principal el software base.
 
 ### Descripción del modelo de negocios
 
 
 ### Descripción de interesados y posibles usuarios
-
+La dueña de la empresa:
+desarrollador en jefe:
 
 ---
 
 ## Propuesta de solución
 ### Requisitos
-
+- Un API desarollada en Django Rest
+- Una solución modular(Que pueda adaptarse a cambios futuros)
+- software con diseño de patrones Factory
+- Control de acceso total a la aplicación
 
 ### Solución propuesta
-
+Desarrollar un API que pueda detectar señales de tránsito proporcionados por el usuario.
 
 ### Estudio de factibilidad
 
