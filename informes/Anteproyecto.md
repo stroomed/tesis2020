@@ -45,8 +45,8 @@ Existe la oportunidad complementar un trabajo previo hecho por un desarrollador,
 
 
 ### Descripción de interesados y posibles usuarios
-La dueña de la empresa:
-desarrollador en jefe:
+- Dueña de la empresa:
+- Desarrollador en jefe:
 
 ---
 
