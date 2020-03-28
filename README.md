@@ -5,3 +5,4 @@ Realizado por:
  - Gabriel Barría
  - Fabricio Guzmán
  - Ricardo Gutiérrez
+ - Nicol Quintuy
