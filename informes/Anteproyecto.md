@@ -30,7 +30,7 @@
 
 ## Resumen
 
-
+Basado en un desarrollo previo, este proyecto buscará solucionar la falta de una interfaz visual que tiene actualmente la empresa.
 
 ---
 
@@ -47,7 +47,7 @@ Existe la oportunidad de desarrollar una aplicación web que reciba los datos ob
 
 ### Descripción de interesados y posibles usuarios
 
-- Representante de la empresa:
+- Representante de la empresa: Cristhian Aguilera.
 
 ---
 
