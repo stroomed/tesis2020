@@ -30,6 +30,8 @@
 
 ## Resumen
 
+_Aquí va el resumen del informe_ 
+
 Basado en un desarrollo previo, este proyecto buscará solucionar la falta de una interfaz visual que tiene actualmente la empresa.
 
 ---
@@ -37,7 +39,7 @@ Basado en un desarrollo previo, este proyecto buscará solucionar la falta de un
 ## Descripción del problema
 ### Descripción de la empresa o negocio
 
-Aquí va la descripción de la empresa.
+_Aquí va la descripción de la empresa_
 
 ### Problema u oportunidad
 
@@ -45,7 +47,7 @@ Existe la oportunidad de desarrollar una aplicación web que reciba los datos ob
 
 ### Descripción del modelo de negocios
 
-Aquí se mete el canvas.
+_Aquí se mete el canvas_
 
 ### Descripción de interesados y posibles usuarios
 
@@ -67,29 +69,29 @@ Desarrollar una aplicación que reciba los datos de la API y así permita detect
 
 ### Estudio de factibilidad
 
-Económica.
+_Económica_
 
-Técnica.
+_Técnica_
 
-Alguna otra.
+_Alguna otra_
 
 ### Alcances y restricciones
 
-Alcance de la solución.
+_Alcance de la solución_
 
 ---
 
 ## Objetivos
 ### General
 
-Objetivo general.
+_Objetivo general_
 
 ### Específicos
 
-Objetivos específicos.
+_Objetivos específicos_
 
 ---
 
 ## Referencias bibliográficas
 
-Referencias de lo que utilicemos (páginas, código, etc.).
+_Referencias de lo que utilicemos (páginas, código, etc.)_
