@@ -5,7 +5,7 @@
 #### Sección: 01.
 #### Docente: Cristhian Aguilera.
 #### Integrantes: Nicol Quintuy, Gabriel Barría, Fabricio Guzmán y Ricardo Gutiérrez.
-#### Fecha de entrega:
+#### Fecha de entrega: Martes 7 de abril
 
 ---
 
@@ -37,6 +37,7 @@ Basado en un desarrollo previo, este proyecto buscará solucionar la falta de un
 ## Descripción del problema
 ### Descripción de la empresa o negocio
 
+Aquí va la descripción de la empresa.
 
 ### Problema u oportunidad
 
@@ -44,6 +45,7 @@ Existe la oportunidad de desarrollar una aplicación web que reciba los datos ob
 
 ### Descripción del modelo de negocios
 
+Aquí se mete el canvas.
 
 ### Descripción de interesados y posibles usuarios
 
@@ -65,20 +67,29 @@ Desarrollar una aplicación que reciba los datos de la API y así permita detect
 
 ### Estudio de factibilidad
 
+Económica.
 
+Técnica.
+
+Alguna otra.
 
 ### Alcances y restricciones
 
+Alcance de la solución.
 
 ---
 
 ## Objetivos
 ### General
 
+Objetivo general.
 
 ### Específicos
 
+Objetivos específicos.
 
 ---
 
 ## Referencias bibliográficas
+
+Referencias de lo que utilicemos (páginas, código, etc.).
