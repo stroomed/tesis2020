@@ -73,6 +73,8 @@ _Económica_
 
 _Técnica_
 
+_Legal_
+
 _Alguna otra_
 
 ### Alcances y restricciones
