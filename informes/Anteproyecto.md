@@ -39,7 +39,7 @@ Basado en un desarrollo previo, este proyecto buscará solucionar la falta de un
 ## Descripción del problema
 ### Descripción de la empresa o negocio
 
-_Aquí va la descripción de la empresa_
+COVIS SpA es una empresa de base técnologica recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial con soluciones basados en visión por computador, internet de las cosas y análisis inteligente de datos.
 
 ### Problema u oportunidad
 
@@ -51,7 +51,10 @@ _Aquí se mete el canvas_
 
 ### Descripción de interesados y posibles usuarios
 
-- Representante de la empresa: Cristhian Aguilera.
+- Co-fundador de la empresa: Cristhian Aguilera, Dr. en ingeniería eléctrica con de 20 años en formulación y desarrollo de proyectos de investigación e innovación en el ámbito industrial.
+- Jefa de la empresa: Ángela Castro, emprendedora con estudios de estudios de postgrado en la Universidad Autónoma de Barcelona con experiencia en proyectos de investigación nacionales e internacionales.
+- Co-fundador de la empresa: Renato ..., Ingeniero industrial, con experiencia en temas de PI y Gestión de la Innovación. Se ha desarrollado como Gestor Tecnológico por varios años y ha participado en diversas empresas y proyectos en el ámbito industrial.
+
 
 ---
 
@@ -97,3 +100,4 @@ _Objetivos específicos_
 ## Referencias bibliográficas
 
 _Referencias de lo que utilicemos (páginas, código, etc.)_
+http://covis.cl
