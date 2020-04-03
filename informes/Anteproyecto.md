@@ -71,9 +71,13 @@ Desarrollar una aplicación que reciba los datos de la API y permita así detect
 
 ### Estudio de factibilidad
 
-_Económica_
+#### Económica
 
-_Técnica_
+_ agregar económica_
+
+#### Técnica
+
+_ agregar écnica_
 
 #### Legal
 
