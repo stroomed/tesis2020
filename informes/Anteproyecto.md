@@ -30,9 +30,9 @@
 
 ## Resumen
 
-_Aquí va el resumen del informe_ 
+_Aquí va el resumen del proyecto_ 
 
-Basado en un desarrollo previo, este proyecto buscará solucionar la falta de una interfaz visual que tiene actualmente la empresa.
+En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita a la empresa el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
 
 ---
 
@@ -43,7 +43,7 @@ COVIS SpA es una empresa de base técnologica recientemente creada con el objeti
 
 ### Problema u oportunidad
 
-Existe la oportunidad de desarrollar una aplicación web que reciba los datos obtenidos desde la API desarrollada anteriormente por la empresa, muestre dicha información y permita su trabajo con ella.
+Se ha presentado la oportunidad de desarrollar una aplicación web que reciba los datos obtenidos desde la API desarrollada anteriormente por la empresa, muestre dicha información y permita su trabajo con ella.
 
 ### Descripción del modelo de negocios
 
@@ -54,7 +54,6 @@ _Aquí se mete el canvas_
 - Co-fundador de la empresa: Cristhian Aguilera, Dr. en ingeniería eléctrica con de 20 años en formulación y desarrollo de proyectos de investigación e innovación en el ámbito industrial.
 - Jefa de la empresa: Ángela Castro, emprendedora con estudios de estudios de postgrado en la Universidad Autónoma de Barcelona con experiencia en proyectos de investigación nacionales e internacionales.
 - Co-fundador de la empresa: Renato Vergara, Ingeniero industrial, con experiencia en temas de PI y Gestión de la Innovación. Se ha desarrollado como Gestor Tecnológico por varios años y ha participado en diversas empresas y proyectos en el ámbito industrial.
-
 
 ---
 
@@ -68,7 +67,7 @@ _Aquí se mete el canvas_
 
 ### Solución propuesta
 
-Desarrollar una aplicación que reciba los datos de la API y así permita detectar señales de tránsito proporcionados por el usuario.
+Desarrollar una aplicación que reciba los datos de la API y permita así detectar señales de tránsito proporcionados por el usuario.
 
 ### Estudio de factibilidad
 
@@ -76,9 +75,15 @@ _Económica_
 
 _Técnica_
 
-_Legal_
+#### Legal
 
-_Alguna otra_
+En el ámbito legal, no se encuentra regulado el sacar fotografías o grabar video en la vía pública. 
+
+Sin embargo, en el artículo 19 de la Constitución, N° 4, indica que:
+
+> 4º.- El respeto y protección a la vida privada y a la honra de la persona y su familia, y asimismo, la protección de sus datos personales. El tratamiento y protección de estos datos se efectuará en la forma y condiciones que determine la ley.
+
+Por lo que, en caso de que se utilice la imagen de una persona para publicidad (por ejemplo), esa persona podrá solicitar el no uso de su imagen sin su consentimiento.
 
 ### Alcances y restricciones
 
@@ -89,15 +94,24 @@ _Alcance de la solución_
 ## Objetivos
 ### General
 
-_Objetivo general_
+Desarrollar un sistema que pueda ser vendido o arrendado a municipios del país, el cual permitirá identificar las señales de tránsito y/o semáforos que estén dañados o, en su defecto, permita identificar lugares en los que sería necesario instalar uno.
 
 ### Específicos
 
 _Objetivos específicos_
 
+- Determinar datos que se recibirán de la API.
+- Modelar un sistema que pueda trabajar con los datos recibidos.
+- Diseñar una interfaz de usuario para el sistema y que incluya un control de inicio de sesión.
+- Realizar pruebas para validar el rendimiento de la aplicación.
+- Entregar la aplicación finalizada al cliente.
+
 ---
 
-## Referencias bibliográficas
+## Referencias bibliográficas (linkografía)
 
-_Referencias de lo que utilicemos (páginas, código, etc.)_
 http://covis.cl
+
+https://www.diarioconcepcion.cl/ciudad/2017/09/25/fotografia-en-la-via-publica-es-legal-que-te-tomen-una-foto-sin-tu-consentimiento.html
+
+
