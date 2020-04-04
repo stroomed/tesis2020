@@ -91,7 +91,9 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 El software a desarrollar tendrá como objetivo el poder ofrecerlo a municipios y/o Ministerio de Obras Públicas, sin embargo, también se mantiene la posibilidad de ser ofrecido a constructoras privadas para proyectos inmobiliarios futuros.
 
-Por otro lado, la aplicación solo se limitará a la detección de la existencia o falta de semáforos y otras señaléticas de tránsito.
+Por otro lado, la aplicación solo se limitará a la detección de la existencia o falta de semáforos y otras señaléticas de tránsito, mostrándolo así en la interfaz a desarrollar.
+
+Por último, solo las personas registradas podrán hacer uso de la aplicación, es decir, mientras esté en fase de desarrollo, solo gente de COVIS que cuente con acceso podrá ingresar a ella.
 
 ---
 
