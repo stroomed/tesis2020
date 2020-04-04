@@ -30,8 +30,6 @@
 
 ## Resumen
 
-_Aquí va el resumen del proyecto_ 
-
 En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita a la empresa el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
 
 ---
@@ -73,11 +71,11 @@ Desarrollar una aplicación que reciba los datos de la API y permita así detect
 
 #### Económica
 
-_ agregar económica_
+_agregar económica_
 
 #### Técnica
 
-_ agregar écnica_
+_agregar técnica_
 
 #### Legal
 
@@ -91,7 +89,9 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 ### Alcances y restricciones
 
-_Alcance de la solución_
+El software a desarrollar tendrá como objetivo el poder ofrecerlo a municipios y/o Ministerio de Obras Públicas, sin embargo, también se mantiene la posibilidad de ser ofrecido a constructoras privadas para proyectos inmobiliarios futuros.
+
+Por otro lado, la aplicación solo se limitará a la detección de la existencia o falta de semáforos y otras señaléticas de tránsito.
 
 ---
 
@@ -101,8 +101,6 @@ _Alcance de la solución_
 Desarrollar un sistema que pueda ser vendido o arrendado a municipios del país, el cual permitirá identificar las señales de tránsito y/o semáforos que estén dañados o, en su defecto, permita identificar lugares en los que sería necesario instalar uno.
 
 ### Específicos
-
-_Objetivos específicos_
 
 - Determinar datos que se recibirán de la API.
 - Modelar un sistema que pueda trabajar con los datos recibidos.
@@ -118,4 +116,4 @@ http://covis.cl
 
 https://www.diarioconcepcion.cl/ciudad/2017/09/25/fotografia-en-la-via-publica-es-legal-que-te-tomen-una-foto-sin-tu-consentimiento.html
 
-
+https://www.leychile.cl/Navegar?idNorma=242302
