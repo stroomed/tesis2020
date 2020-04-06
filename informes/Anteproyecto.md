@@ -30,7 +30,7 @@
 
 ## Resumen
 
-En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita a la empresa el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
+En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita al usuario el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
 
 ---
 
@@ -45,7 +45,7 @@ Se ha presentado la oportunidad de desarrollar una aplicación web que reciba lo
 
 ### Descripción del modelo de negocios
 
-_Aquí se mete el canvas_
+_canvas_
 
 ### Descripción de interesados y posibles usuarios
 
@@ -58,14 +58,14 @@ _Aquí se mete el canvas_
 ## Propuesta de solución
 ### Requisitos
 
-- Un API desarollada en Django Rest.
+- Un API desarollada en Python utilizando Django Rest.
 - Una solución modular que permita adaptarse a posibles futuros ajustes.
 - Software con diseño de patrones Factory.
 - Control de acceso a la aplicación.
 
 ### Solución propuesta
 
-Desarrollar una aplicación que reciba los datos de la API y permita así detectar señales de tránsito proporcionados por el usuario.
+Desarrollar una aplicación que reciba los datos del usuario, los envíe a la API existente y permita el trabajar con la información entregada por la API.
 
 ### Estudio de factibilidad
 
