@@ -77,7 +77,7 @@ _agregar económica_
 
 #### Técnica
 
-_agregar técnica_
+https://github.com/stroomed/tesis2020/issues/2#issue-596059277
 
 #### Legal
 
