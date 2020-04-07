@@ -73,7 +73,11 @@ Desarrollar una aplicación que reciba los datos del usuario, los envíe a la AP
 
 #### Económica
 
-_agregar económica_
+![image](https://user-images.githubusercontent.com/62030014/78712305-6f19e280-78e6-11ea-8567-061f6c235103.png)
+
+![image](https://user-images.githubusercontent.com/62030014/78712332-793be100-78e6-11ea-9f68-4639cc1afae7.png)
+
+Segun el estudio economico, el proyecto al no ser con fines de lucro y solo de caracter educacional no contempla ni una inversion ni ganancia monetaria, solamente conocimiento adquirido por los creadores gracias a la investigación.
 
 #### Técnica
 
