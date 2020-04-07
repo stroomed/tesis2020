@@ -69,8 +69,6 @@ Desarrollar una aplicación que reciba los datos del usuario, los envíe a la AP
 
 ### Estudio de factibilidad
 
-
-
 #### Económica
 
 ![image](https://user-images.githubusercontent.com/62030014/78712305-6f19e280-78e6-11ea-8567-061f6c235103.png)
