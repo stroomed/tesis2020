@@ -45,7 +45,7 @@ Se ha presentado la oportunidad de desarrollar una aplicación web que reciba lo
 
 ### Descripción del modelo de negocios
 
-_canvas_
+https://github.com/stroomed/tesis2020/issues/1#issue-596050674
 
 ### Descripción de interesados y posibles usuarios
 
@@ -68,6 +68,8 @@ _canvas_
 Desarrollar una aplicación que reciba los datos del usuario, los envíe a la API existente y permita el trabajar con la información entregada por la API.
 
 ### Estudio de factibilidad
+
+
 
 #### Económica
 
