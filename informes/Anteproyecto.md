@@ -32,6 +32,8 @@
 
 En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita al usuario el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
 
+> Comentarios revisión: El resumen no da a entender de que se trata el proyecto, carece de información relevante, descripción del problema, y motivación detrás de la solución. Adicionalmente, no explica en que consiste el actual informe. Revisen la rubrica!
+
 ---
 
 ## Descripción del problema
@@ -39,13 +41,19 @@ En el transcurso de este proyecto se diseñará y se desarrollará un sistema qu
 
 COVIS SpA es una empresa de base técnologica recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial con soluciones basados en visión por computador, internet de las cosas y análisis inteligente de datos.
 
+> Comentarios revisión: Falta un organigrama de la empresa. Revisen la ortografía.
+
 ### Problema u oportunidad
 
 Se ha presentado la oportunidad de desarrollar una aplicación web que reciba los datos obtenidos desde la API desarrollada anteriormente por la empresa, muestre dicha información y permita su trabajo con ella.
 
+> Comentarios revisión: Esta sección fue mal interpretada. En problema debieron haber descrito la necesidad de mantener actualizada la información de las señales de trafico de las ciudades. La oportunidad tiene relación con que ahora se hace manual y la solución lo hace de manera automática, ahorrando tiempo, .... Ustedes están siendo partes de la solución, por lo que el problema y la oportunidad es la misma
+
 ### Descripción del modelo de negocios
 
 https://github.com/stroomed/tesis2020/issues/1#issue-596050674
+
+> Comentarios revisión: Las imágenes pueden ser agregadas a markdown sin tener que ir a  un issue, lean documentación de github o markdown. Dicho lo anterior, el canvas o modelo de negocios, es en relación a la solución completa, incluyendo el detector que desarrolla la empresa, ustedes son solo una parte de este producto. Socios clave: Solutiva, Universidad del Bio-Bio. Recursos claves: Sistema de detección (hardware, incluye cámaras). Segmento de clientes, falta empresas privadas. Actividades claves: Mejora continua algoritmo de detección, seguimiento continuo de normas del transito, informes mensuales con clientes. El flujo de ingresos no tiene sentido, compra no es un ingreso, gastos fijos tampoco, revisar!.
 
 ### Descripción de interesados y posibles usuarios
 
@@ -56,6 +64,7 @@ https://github.com/stroomed/tesis2020/issues/1#issue-596050674
 ---
 
 ## Propuesta de solución
+
 ### Requisitos
 
 - Un API desarollada en Python utilizando Django Rest.
@@ -67,6 +76,8 @@ https://github.com/stroomed/tesis2020/issues/1#issue-596050674
 
 Desarrollar una aplicación que reciba los datos del usuario, los envíe a la API existente y permita el trabajar con la información entregada por la API.
 
+> Comentarios revisión: La solución es con relación al problema, incluye la detección de señales. Ustedes deben mencionar que como parte de la solución completa se restringirán a desarrollar el api de comunicación entre el hardware y el usuario final, definiendo lo que describen anteriormente.
+
 ### Estudio de factibilidad
 
 #### Económica
@@ -77,9 +88,15 @@ Desarrollar una aplicación que reciba los datos del usuario, los envíe a la AP
 
 Segun el estudio economico, el proyecto al no ser con fines de lucro y solo de caracter educacional no contempla ni una inversion ni ganancia monetaria, solamente conocimiento adquirido por los creadores gracias a la investigación.
 
+> Comentarios revisión: Lo anterior no quita el análisis de factibilidad. Deben ver el proyecto como un todo, y limitarse al desarrollo de tu parte. Osea aunque el desarrollo de ustedes cueste 0, el proyecto debe dar indicios de las ganancias esperadas del servicio y los costos de mantención del mismo. Si no manejan esos datos, deben consultarlos conmigo.
+
+
 #### Técnica
 
 https://github.com/stroomed/tesis2020/issues/2#issue-596059277
+
+
+> Comentarios revisión: Como se relacionan los requerimientos con sus capacidades?. Es posible realizar lo que se pide?
 
 #### Legal
 
@@ -99,12 +116,15 @@ Por otro lado, la aplicación solo se limitará a la detección de la existencia
 
 Por último, solo las personas registradas podrán hacer uso de la aplicación, es decir, mientras esté en fase de desarrollo, solo gente de COVIS que cuente con acceso podrá ingresar a ella.
 
+> Comentarios revisión: Definan alcances y restricciones particulares del desarrollo, no del producto.
 ---
 
 ## Objetivos
 ### General
 
 Desarrollar un sistema que pueda ser vendido o arrendado a municipios del país, el cual permitirá identificar las señales de tránsito y/o semáforos que estén dañados o, en su defecto, permita identificar lugares en los que sería necesario instalar uno.
+
+> Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
 
 ### Específicos
 
@@ -113,6 +133,8 @@ Desarrollar un sistema que pueda ser vendido o arrendado a municipios del país,
 - Diseñar una interfaz de usuario para el sistema y que incluya un control de inicio de sesión.
 - Realizar pruebas para validar el rendimiento de la aplicación.
 - Entregar la aplicación finalizada al cliente.
+
+> Comentarios revisión: Lo anterior son tareas no objetivos
 
 ---
 
