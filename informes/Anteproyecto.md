@@ -5,7 +5,7 @@
 #### Sección: 01.
 #### Docente: Cristhian Aguilera.
 #### Integrantes: Nicol Quintuy, Gabriel Barría, Fabricio Guzmán y Ricardo Gutiérrez.
-#### Fecha de entrega: Martes 7 de abril
+#### Fecha de entrega: Martes 15 de abril
 
 ---
 
@@ -30,7 +30,11 @@
 
 ## Resumen
 
-En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita al usuario el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
+> En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita al usuario el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
+
+   Inspirados por complementar una aplicación ya construida, inicia el desarrollo de un software API el cual tiene como objetivo el tomar datos de una imagen que será entregada por un automóvil, el cual cumplirá con la función de scanner de las calles y así poder tener un informe detallado de las zonas en las que las señales de tráfico se encuentren en mal estado o que simplemente estas no existan donde deberían, dando la posición de donde se encuentra dicho desperfecto por medio de una interfaz agradable con el usuario.
+   En el siguiente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
+
 
 > Comentarios revisión: El resumen no da a entender de que se trata el proyecto, carece de información relevante, descripción del problema, y motivación detrás de la solución. Adicionalmente, no explica en que consiste el actual informe. Revisen la rubrica!
 
@@ -39,7 +43,7 @@ En el transcurso de este proyecto se diseñará y se desarrollará un sistema qu
 ## Descripción del problema
 ### Descripción de la empresa o negocio
 
-COVIS SpA es una empresa de base técnologica recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial con soluciones basados en visión por computador, internet de las cosas y análisis inteligente de datos.
+COVIS SpA es una empresa de base tecnológica recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial con soluciones basados en visión por computador, internet de las cosas y análisis inteligente de datos.
 
 > Comentarios revisión: Falta un organigrama de la empresa. Revisen la ortografía.
 
