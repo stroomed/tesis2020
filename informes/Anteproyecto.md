@@ -5,7 +5,7 @@
 #### Sección: 01.
 #### Docente: Cristhian Aguilera.
 #### Integrantes: Nicol Quintuy, Gabriel Barría, Fabricio Guzmán y Ricardo Gutiérrez.
-#### Fecha de entrega: Martes 15 de abril
+#### Fecha de entrega: Miércoles 15 de abril
 
 ---
 
@@ -30,13 +30,9 @@
 
 ## Resumen
 
-> En el transcurso de este proyecto se diseñará y se desarrollará un sistema que le permita al usuario el trabajar con señales de tránsito y semáforos, teniendo así la oportunidad de ofrecer su servicio a municipios del país.
+Inspirados por complementar una aplicación ya construida, inicia el desarrollo de un software API, el que tendrá como objetivo el tomar datos de una imagen que será entregada por un automóvil, y que cumplirá con la función de scanner de las calles y así poder tener un informe detallado de las zonas en las que las señales de tráfico se encuentren en mal estado o que simplemente no existan donde deberían, dando la posición de donde se encuentra dicho desperfecto por medio de una interfaz amigable con el usuario.
 
-   Inspirados por complementar una aplicación ya construida, inicia el desarrollo de un software API el cual tiene como objetivo el tomar datos de una imagen que será entregada por un automóvil, el cual cumplirá con la función de scanner de las calles y así poder tener un informe detallado de las zonas en las que las señales de tráfico se encuentren en mal estado o que simplemente estas no existan donde deberían, dando la posición de donde se encuentra dicho desperfecto por medio de una interfaz agradable con el usuario.
-   En el siguiente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
-
-
-> Comentarios revisión: El resumen no da a entender de que se trata el proyecto, carece de información relevante, descripción del problema, y motivación detrás de la solución. Adicionalmente, no explica en que consiste el actual informe. Revisen la rubrica!
+En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
 
 ---
 
@@ -49,15 +45,13 @@ COVIS SpA es una empresa de base tecnológica recientemente creada con el objeti
 
 ### Problema u oportunidad
 
-Se ha presentado la oportunidad de desarrollar una aplicación web que reciba los datos obtenidos desde la API desarrollada anteriormente por la empresa, muestre dicha información y permita su trabajo con ella.
-
-> Comentarios revisión: Esta sección fue mal interpretada. En problema debieron haber descrito la necesidad de mantener actualizada la información de las señales de trafico de las ciudades. La oportunidad tiene relación con que ahora se hace manual y la solución lo hace de manera automática, ahorrando tiempo, .... Ustedes están siendo partes de la solución, por lo que el problema y la oportunidad es la misma
+La empresa ha identificado la necesidad que tienen los municipios de mantener actualizada la información de las señales de tránsito de las calles, por lo que, basados en un desarrollo previo, se nos ha solicitado el crear una aplicación web que permita automatizar el proceso de actualizar dicha información (que en la actualidad se realiza de forma manual).
 
 ### Descripción del modelo de negocios
 
-https://github.com/stroomed/tesis2020/issues/1#issue-596050674
+![image](https://user-images.githubusercontent.com/62029314/78703281-e5fbaf00-78d7-11ea-8fc0-e1ba9c9e1be7.PNG)
 
-> Comentarios revisión: Las imágenes pueden ser agregadas a markdown sin tener que ir a  un issue, lean documentación de github o markdown. Dicho lo anterior, el canvas o modelo de negocios, es en relación a la solución completa, incluyendo el detector que desarrolla la empresa, ustedes son solo una parte de este producto. Socios clave: Solutiva, Universidad del Bio-Bio. Recursos claves: Sistema de detección (hardware, incluye cámaras). Segmento de clientes, falta empresas privadas. Actividades claves: Mejora continua algoritmo de detección, seguimiento continuo de normas del transito, informes mensuales con clientes. El flujo de ingresos no tiene sentido, compra no es un ingreso, gastos fijos tampoco, revisar!.
+> El canvas o modelo de negocios, es en relación a la solución completa, incluyendo el detector que desarrolla la empresa, ustedes son solo una parte de este producto. Socios clave: Solutiva, Universidad del Bio-Bio. Recursos claves: Sistema de detección (hardware, incluye cámaras). Segmento de clientes, falta empresas privadas. Actividades claves: Mejora continua algoritmo de detección, seguimiento continuo de normas del transito, informes mensuales con clientes. El flujo de ingresos no tiene sentido, compra no es un ingreso, gastos fijos tampoco, revisar!.
 
 ### Descripción de interesados y posibles usuarios
 
@@ -68,7 +62,6 @@ https://github.com/stroomed/tesis2020/issues/1#issue-596050674
 ---
 
 ## Propuesta de solución
-
 ### Requisitos
 
 - Un API desarollada en Python utilizando Django Rest.
@@ -78,7 +71,7 @@ https://github.com/stroomed/tesis2020/issues/1#issue-596050674
 
 ### Solución propuesta
 
-Desarrollar una aplicación que reciba los datos del usuario, los envíe a la API existente y permita el trabajar con la información entregada por la API.
+Automatizar el proceso de la actualización de la información correspondiente al estado de las señales de tráfico de la ciudad, lo cual se logrará por medio del desarrollo de una API que permita interpretar los datos recibidos y se los entregue al usuario ya como información para su uso.
 
 > Comentarios revisión: La solución es con relación al problema, incluye la detección de señales. Ustedes deben mencionar que como parte de la solución completa se restringirán a desarrollar el api de comunicación entre el hardware y el usuario final, definiendo lo que describen anteriormente.
 
@@ -97,8 +90,7 @@ Segun el estudio economico, el proyecto al no ser con fines de lucro y solo de c
 
 #### Técnica
 
-https://github.com/stroomed/tesis2020/issues/2#issue-596059277
-
+![image](https://user-images.githubusercontent.com/62029314/78704581-0e84a880-78da-11ea-9724-167186f395e3.PNG)
 
 > Comentarios revisión: Como se relacionan los requerimientos con sus capacidades?. Es posible realizar lo que se pide?
 
@@ -114,13 +106,12 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 ### Alcances y restricciones
 
-El software a desarrollar tendrá como objetivo el poder ofrecerlo a municipios y/o Ministerio de Obras Públicas, sin embargo, también se mantiene la posibilidad de ser ofrecido a constructoras privadas para proyectos inmobiliarios futuros.
+El desarrollo de esta aplciación se limitará a la creación de la aplicación web que pueda recibir los datos de la API ya existente, trabaje los datos recibidos y le entregue la información al usuario.
 
-Por otro lado, la aplicación solo se limitará a la detección de la existencia o falta de semáforos y otras señaléticas de tránsito, mostrándolo así en la interfaz a desarrollar.
+Por su parte, la aplicación será desarrollada exclusivamente con Django Rest, por lo que los programadores deberán trabajar únicamente con el lenguaje Python.
 
-Por último, solo las personas registradas podrán hacer uso de la aplicación, es decir, mientras esté en fase de desarrollo, solo gente de COVIS que cuente con acceso podrá ingresar a ella.
+El o los testers de la aplicación solo deberán probar por el correcto funcionamiento de la aplicación, por lo que no es estrictamente necesario que ellos sepan python a cabalidad.
 
-> Comentarios revisión: Definan alcances y restricciones particulares del desarrollo, no del producto.
 ---
 
 ## Objetivos
