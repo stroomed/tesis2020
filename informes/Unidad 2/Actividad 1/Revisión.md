@@ -2,11 +2,16 @@
 
 ### Gestión de alcance
 
-_agregar puntaje dado_
+Puntaje otorgado: 5 puntos
+
+Se define los objetivos del proyecto acorde a la problematica, pero no cuentan con las actividades de produccion del proyecto 
 
 ### Gestión de riesgos
 
-_agregar puntaje dado_
+Puntaje otorgado: 5 puntos 
+
+Se define los riegos principales del proyecto los cuales estan identificados con su probabilidad e impacto pero no cuentan con un plan de contingencia
+
 
 ### Gestión de calidad
 
@@ -16,7 +21,7 @@ _agregar puntaje dado_
 
 Puntaje otorgado: 3 puntos.
 
-Al analizar el informe, se presenta presupuesto del proyecto, sin embargo, no se explica cálculo de valor hora ni la relación de la cantidad de horas por persona por día. Por otro lado, tampoco se entrega la relación entre el alcance del proyecto y los recursos presentados.
+Al analizar el informe, presentan presupeusto del proyecto, sin embargo, no se explica cálculo de valor hora cni la relación entre la cantidad de horas por persona por día. Por otro lado, tampoco se entrega la relación entre el alcance del proyecto y los recursos presentados.
 
 ### Gestión de adquisisiones
 
