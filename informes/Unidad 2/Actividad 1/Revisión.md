@@ -27,7 +27,9 @@ Al analizar el informe, presentan presupeusto del proyecto, sin embargo, no se e
 
 ### Gestión de adquisisiones
 
-_agregar puntaje dado_
+Puntaje otorgado: 5 puntos 
+
+define las contrataciones y compras necesarias para el proyecto pero no define las condiciones de contratación
 
 ### Gestión de Cronograma MS Project
 
