@@ -1,4 +1,4 @@
-#### Revisión del archivo Plantillas PMBOK Patagones y Matriz de Trazabilidad Patagones en base a la rubrica entrega por el docente. Todos los archivos mencionados anteriormente se encuentran en la carpeta Actividad 1.
+#### Revisión del archivo Plantillas PMBOK Patagones y Matriz de Trazabilidad Patagones en base a la rubrica entrega por el docente. Todos los archivos mencionados anteriormente se encuentran en el issue correspondiente a la actividad.
 
 ### Gestión de alcance
 
