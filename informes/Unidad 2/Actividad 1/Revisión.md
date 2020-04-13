@@ -29,7 +29,7 @@ Al analizar el informe, presentan presupeusto del proyecto, sin embargo, no se e
 
 Puntaje otorgado: 5 puntos 
 
-define las contrataciones y compras necesarias para el proyecto pero no define las condiciones de contratación
+Define las contrataciones y compras necesarias para el proyecto, pero no define las condiciones de contratación.
 
 ### Gestión de Cronograma MS Project
 
@@ -37,7 +37,9 @@ _agregar puntaje dado_
 
 ### Trazabilidad de requerimientos
 
-_agregar puntaje dado_
+Puntaje otorgado: 1 punto.
+
+Se preocupa mucho de la descripción de los requerimientos, pero deja de lado la dependencia de estos y, además, no hace la diferencia entre requerimientos funcionales y no funcionales.
 
 ## Puntos totales: 49 puntos
 
