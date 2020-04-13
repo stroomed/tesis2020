@@ -33,7 +33,9 @@ Define las contrataciones y compras necesarias para el proyecto, pero no define 
 
 ### Gestión de Cronograma MS Project
 
-_agregar puntaje dado_
+Puntaje otorgado: 5 puntos
+
+La carta Gantt cuenta con todos los hitos que se presentan en el EDT, por lo que hay consistencia, además de mostrar más detalladamente actividades que se realizaran dentro de cada etapa, hay detalles menores en cuanto a los responsables de cada actividad, ya que no presentan, debido a esto no hay forma de saber quién hará que y tampoco habrá a quien responsabilizar por el atraso de alguna tarea/as.
 
 ### Trazabilidad de requerimientos
 
