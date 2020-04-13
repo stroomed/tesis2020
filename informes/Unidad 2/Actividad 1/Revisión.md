@@ -14,7 +14,9 @@ _agregar puntaje dado_
 
 ### Gestión de costos
 
-_agregar puntaje dado_
+Puntaje otorgado: 3 puntos.
+
+Al analizar el informe, presentan presupeusto del proyecto, sin embargo, no se explica cálculo de valor hora cni la relación entre la cantidad de horas por persona por día. Por otro lado, tampoco se entrega la relación entre el alcance del proyecto y los recursos presentados.
 
 ### Gestión de adquisisiones
 
