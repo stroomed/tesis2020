@@ -15,7 +15,9 @@ Se define los riegos principales del proyecto los cuales estan identificados con
 
 ### Gestión de calidad
 
-_agregar puntaje dado_
+Puntaje otorgado: 5 puntos.
+
+Se define los responsables de cada proceso de medición, sin embargo, los criterios no están bien definidos y los procesos no se encuentran bien explicados.
 
 ### Gestión de costos
 
