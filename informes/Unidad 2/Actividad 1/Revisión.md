@@ -45,4 +45,4 @@ Se preocupa mucho de la descripción de los requerimientos, pero deja de lado la
 
 ## Puntos totales: 49 puntos
 
-## Puntaje obtenido: 
+## Puntaje obtenido: 29 puntos
