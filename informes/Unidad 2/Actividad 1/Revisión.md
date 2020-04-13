@@ -16,7 +16,7 @@ _agregar puntaje dado_
 
 Puntaje otorgado: 3 puntos.
 
-Al analizar el informe, presentan presupeusto del proyecto, sin embargo, no se explica cálculo de valor hora cni la relación entre la cantidad de horas por persona por día. Por otro lado, tampoco se entrega la relación entre el alcance del proyecto y los recursos presentados.
+Al analizar el informe, se presenta presupuesto del proyecto, sin embargo, no se explica cálculo de valor hora ni la relación de la cantidad de horas por persona por día. Por otro lado, tampoco se entrega la relación entre el alcance del proyecto y los recursos presentados.
 
 ### Gestión de adquisisiones
 
