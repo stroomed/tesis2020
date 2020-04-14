@@ -90,7 +90,7 @@ Segun el estudio economico, el proyecto al no ser con fines de lucro y solo de c
 
 #### Técnica
 
-![image](https://user-images.githubusercontent.com/62029314/78704581-0e84a880-78da-11ea-9724-167186f395e3.PNG)
+![image](https://user-images.githubusercontent.com/62029314/79279878-ff26d180-7e7c-11ea-866d-b12f4dae5b7f.PNG)
 
 > Comentarios revisión: Como se relacionan los requerimientos con sus capacidades?. Es posible realizar lo que se pide?
 
