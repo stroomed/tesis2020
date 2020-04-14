@@ -30,7 +30,9 @@
 
 ## Resumen
 
-Inspirados por complementar una aplicación ya construida, inicia el desarrollo de un software API, el que tendrá como objetivo el tomar datos de una imagen que será entregada por un automóvil, y que cumplirá con la función de scanner de las calles y así poder tener un informe detallado de las zonas en las que las señales de tráfico se encuentren en mal estado o que simplemente no existan donde deberían, dando la posición de donde se encuentra dicho desperfecto por medio de una interfaz amigable con el usuario.
+Inspirados por complementar una aplicacion ya contruida se da inicio al desarrollo de un Software,
+el cual tendra como objetivo principal tomar datos de una imagen la cual seran entregadas por un automovil. A su vez cumplira con scannear las calles detallado las fallas en las señales de transito con un informe detallando las que se encuentran en mal estado o bien informar si se cuenta con esas señaleticas, con esto podremos tener la posicion de donde se encuentran dicho desperfecto por medio de una interfaz amigable con el usuario.
+
 
 En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
 
@@ -103,6 +105,31 @@ Sin embargo, en el artículo 19 de la Constitución, N° 4, indica que:
 > 4º.- El respeto y protección a la vida privada y a la honra de la persona y su familia, y asimismo, la protección de sus datos personales. El tratamiento y protección de estos datos se efectuará en la forma y condiciones que determine la ley.
 
 Por lo que, en caso de que se utilice la imagen de una persona para publicidad (por ejemplo), esa persona podrá solicitar el no uso de su imagen sin su consentimiento.
+
+#### Riesgos
+
+
+#### Ventajas y Desventajas
+
+Los beneficios de la API esta encaminado a mejorar la informacion de las señales de transito 
+
+
+#### Beneficios Tangibles
+
+
+
+
+
+#### Beneficios Intangibles 
+
+La información será confiable.
+Control y seguimiento de la señales de transito.
+Aprovechar los recursos tecnológicos adquiridos.
+
+
+#### Conclusión de Factibilidad
+
+
 
 ### Alcances y restricciones
 
