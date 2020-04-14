@@ -111,20 +111,19 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 #### Ventajas y Desventajas
 
-Los beneficios de la API esta encaminado a mejorar la informacion de las señales de transito 
+
 
 
 #### Beneficios Tangibles
 
-
-
-
+- Mayor alcance de informacion en cuanto a señaleticas.
+- Actualizar Información.
 
 #### Beneficios Intangibles 
 
-La información será confiable.
-Control y seguimiento de la señales de transito.
-Aprovechar los recursos tecnológicos adquiridos.
+- La información será confiable.
+- Control y seguimiento de la señales de transito.
+- Aprovechar los recursos tecnológicos adquiridos.
 
 
 #### Conclusión de Factibilidad
