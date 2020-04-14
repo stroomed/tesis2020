@@ -39,7 +39,7 @@ En el presente informe se analizará superficialmente de lo que trata el proyect
 ## Descripción del problema
 ### Descripción de la empresa o negocio
 
-COVIS SpA es una empresa de base tecnológica recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial con soluciones basados en visión por computador, internet de las cosas y análisis inteligente de datos.
+COVIS SpA es una empresa de base tecnológica, recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial, contando con soluciones basadas en visión por computador, IoT y análisis inteligente de datos.
 
 > Comentarios revisión: Falta un organigrama de la empresa. Revisen la ortografía.
 
