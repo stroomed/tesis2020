@@ -29,10 +29,10 @@
 ---
 
 ## Resumen
+COVIS SpA una empresa dedicada a generar soluciones tecnologicas en el ambito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imagenes de señales de transito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta informacion a traves de imagenes y con ello determinar el estado de las calles, señales de transito y su ubicacion segun el GPS. 
 
 Inspirados por complementar una aplicacion ya contruida se da inicio al desarrollo de un Software,
 el cual tendra como objetivo principal tomar datos de una imagen la cual seran entregadas por un automovil. A su vez cumplira con scannear las calles detallado las fallas en las señales de transito con un informe detallando las que se encuentran en mal estado o bien informar si se cuenta con esas señaleticas, con esto podremos tener la posicion de donde se encuentran dicho desperfecto por medio de una interfaz amigable con el usuario.
-
 
 En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
 
