@@ -55,8 +55,6 @@ La empresa ha identificado la necesidad que tienen los municipios de mantener ac
 
 ![image](https://user-images.githubusercontent.com/62029314/79279697-93446900-7e7c-11ea-9638-3a4ed24b6aff.PNG)
 
-> Comentarios revisión: El canvas o modelo de negocios, es en relación a la solución completa, incluyendo el detector que desarrolla la empresa, ustedes son solo una parte de este producto. Socios clave: Solutiva, Universidad del Bio-Bio. Recursos claves: Sistema de detección (hardware, incluye cámaras). Segmento de clientes, falta empresas privadas. Actividades claves: Mejora continua algoritmo de detección, seguimiento continuo de normas del transito, informes mensuales con clientes. El flujo de ingresos no tiene sentido, compra no es un ingreso, gastos fijos tampoco, revisar!.
-
 ### Descripción de interesados y posibles usuarios
 
 - Co-fundador de la empresa: Cristhian Aguilera, Dr. en ingeniería eléctrica con de 20 años en formulación y desarrollo de proyectos de investigación e innovación en el ámbito industrial.
@@ -85,10 +83,6 @@ Automatizar el proceso de actualización de la información correspondiente al e
 
 ![image](https://user-images.githubusercontent.com/62030014/79291358-6e5fee00-7e9c-11ea-93ad-9c0bc4b9ac7c.png)
 
-
-> Comentarios revisión: Lo anterior no quita el análisis de factibilidad. Deben ver el proyecto como un todo, y limitarse al desarrollo de tu parte. Osea aunque el desarrollo de ustedes cueste 0, el proyecto debe dar indicios de las ganancias esperadas del servicio y los costos de mantención del mismo. Si no manejan esos datos, deben consultarlos conmigo.
-
-
 #### Técnica
 
 ![image](https://user-images.githubusercontent.com/62029314/79279878-ff26d180-7e7c-11ea-866d-b12f4dae5b7f.PNG)
@@ -114,13 +108,16 @@ Durante el desarrollo de la API serán considerados todos los casos posibles por
 - La falta de conocimiento en programas que se utilizaran.
 
 
-#### Ventajas y Desventajas
+#### Ventajas
 
 Los beneficios de la Api estan encaminados a mejorar la informacion que se tienen de las señales de transito.
 - Reparar señaleticas en mal estado o simplemente las que no se encuentran.
 - La API sera unica ya que hasta el momento no hay otra que cumpla con lo mismo que la nuestra.
 - Mejorar el viaje en automovil.
 
+#### Desventajas
+
+_agregar desventajas_
 
 #### Beneficios Tangibles
 
@@ -147,8 +144,6 @@ El costo total correspondiente al funcionamiento de la API seran cobradas por su
 
 Anteriormente fueron mencionadas la ventajas de la API y por ello se procede a continuar con el desarrollo de esta ya que los resultados del análisis de factibilidad nos indican que el proyecto es viable y factible.
 
-
-
 ### Alcances y restricciones
 
 El desarrollo de este proyecto se limitará a la creación de una interfaz que sea capaz de enviar y recibir datos de la API ya existente, ordenarlos y posteriormente mostrarlos de forma grafica a través de una tabla que contenga toda la información. 
@@ -157,7 +152,6 @@ Por su parte, la aplicación será desarrollada exclusivamente con Django Rest, 
 
 El o los testers de la aplicación solo deberán probar por el correcto funcionamiento de la aplicación, por lo que no es estrictamente necesario que ellos sepan python a cabalidad.
 
-
 ---
 
 ## Objetivos
@@ -165,18 +159,11 @@ El o los testers de la aplicación solo deberán probar por el correcto funciona
 
 Desarrollar un sistema que permita obtener información acerca del estado y ubicación de las señales de tránsito a través de imágenes captadas por una cámara preinstaladas en un vehículo, con esto lograr una mayor precisión en el análisis del estado de las calles y señaléticas, permitiendo así disminuir tiempo y recursos destinados a esta labor.
 
-> Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
-
 ### Específicos
 
 - Analizar el 90% de las imágenes 
 - Detectar al 90% la cantidad de anomalías que pueda llegar a tener una señal de transito
 - Definir ubicación exacta del lugar en el que se encuentra cada señal de transito 
-
- 
-
-
-> Comentarios revisión: Lo anterior son tareas no objetivos
 
 ---
 
