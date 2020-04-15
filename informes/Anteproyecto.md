@@ -45,7 +45,7 @@ COVIS SpA es una empresa de base tecnológica, recientemente creada con el objet
 
 La empresa tendría la siguiente organización:
 
-![image](https://user-images.githubusercontent.com/62028929/79285487-b6c2e000-7e8b-11ea-9807-efa56f32b8c8.png)
+![image](https://user-images.githubusercontent.com/62028929/79285792-8f204780-7e8c-11ea-8d55-3b071d9d4525.png)
 
 ### Problema u oportunidad
 
