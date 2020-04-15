@@ -25,7 +25,7 @@
 4. [Objetivos](#objetivos)
    - General
    - Específicos
-5. [Referencias bibliográficas](#referencias-bibliográficas)
+5. [Referencias bibliográficas](#referencias-bibliográficas-linkografía)
 
 ---
 
