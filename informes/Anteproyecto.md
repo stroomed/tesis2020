@@ -83,7 +83,17 @@ Automatizar el proceso de actualización de la información correspondiente al e
 
 ![image](https://user-images.githubusercontent.com/62030014/79377578-e7595700-7f29-11ea-9698-b27a0ecec83f.png)
 
+El costo para la etapa de investigación equivale a $25.000.000
+Por otra parte, para la etapa de implementación, el hardware que incluye cámaras, computador herramientas y material para instalación equivale a $1.300.000
+Para la etapa de mantenimiento se añadirán 2 ingenieros cuyos valores mensuales equivalen a $1.500.000 cada uno y también por cada 5 municipalidades que se vayan agregando se añadirá un técnico encargado del mantenimiento del equipo, además los gastos varios que son recursos que pueden llegar a utilizarse de forma fija se estima que su valor anual equivale a $1.140.000 aproximadamente.
+
+
 ![image](https://user-images.githubusercontent.com/62030014/79377590-ede7ce80-7f29-11ea-8c02-397556eba95d.png)
+
+Según el flujo de caja realizado con una proyección para 5 años, en el primer año no se percibirán ganancias, sino hasta el año 2 donde se comenzará a ganar la cantidad de $95.360.000  anuales, esto teniendo en cuenta que en el primer año solo se tendrán el 2% de los municipios lo que equivale a 6, con una subida del 3% por año se estima que cada año se irán agregando 11 municipios de un total de 345 en el país.
+La TIR señala que el proyecto es viable en un 213%.
+
+
 #### Técnica
 
 ![image](https://user-images.githubusercontent.com/62029314/79279878-ff26d180-7e7c-11ea-866d-b12f4dae5b7f.PNG)
