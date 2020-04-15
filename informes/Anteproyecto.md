@@ -30,6 +30,7 @@
 ---
 
 ## Resumen
+
 COVIS SpA una empresa dedicada a generar soluciones tecnológicas en el ámbito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imágenes que contengan señales de tránsito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta información a través de imágenes y con ello determinar el estado de las calles, señales de tránsito y su ubicación según el GPS.
 
 Basados en lo anterior es necesaria la implementación de una interfaz gráfica que sea capaz de establecer la comunicación del cliente con el software antes mencionado, por esta razón se ha decidido implementar un api rest que sea capaz de recibir imágenes o videos para luego redireccionarlos al software el cual se encargara de analizarlas y finalmente identificar cada objeto detectado en la imagen, devolviendo los resultados para ser presentados al cliente en forma gráfica a través de una tabla que muestre el estado de las señales de tránsito, ubicación y tipo de señal de transito identificada.
@@ -53,7 +54,7 @@ La empresa ha identificado la necesidad que tienen los municipios de mantener ac
 
 ### Descripción del modelo de negocios
 
-![image](https://user-images.githubusercontent.com/62029314/79279697-93446900-7e7c-11ea-9638-3a4ed24b6aff.PNG)
+![image](https://user-images.githubusercontent.com/62029314/79391432-89d00500-7f3f-11ea-82b4-4e4e63caea81.PNG)
 
 ### Descripción de interesados y posibles usuarios
 
