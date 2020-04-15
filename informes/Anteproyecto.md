@@ -11,17 +11,17 @@
 
 ### Índice
 1. [Resumen](#resumen)
-2. [Descripción del problema](descripcion-del-problema)
+2. [Descripción del problema](#descripción-del-problema)
    - Descripción de la empresa o negocio
    - Problema u oportunidad
    - Descripción del modelo de negocios
    - Descripción de interesados y posibles usuarios
-3. Propuesta de solución
+3. [Propuesta de solución](#propuesta-de-solución)
    - Requisitos
    - Solución propuesta
    - Estudio de factibilidad
    - Alcances y restricciones
-4. Objetivos
+4. [Objetivos](#objetivos)
    - General
    - Específicos
 5. Referencias bibliográficas
