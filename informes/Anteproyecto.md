@@ -90,7 +90,7 @@ Para la etapa de mantenimiento se añadirán 2 ingenieros cuyos valores mensuale
 
 ![image](https://user-images.githubusercontent.com/62030014/79377590-ede7ce80-7f29-11ea-8c02-397556eba95d.png)
 
-Según el flujo de caja realizado con una proyección para 5 años, en el primer año no se percibirán ganancias, sino hasta el año 2 donde se comenzará a ganar la cantidad de $95.360.000  anuales, esto teniendo en cuenta que en el primer año solo se tendrán el 2% de los municipios lo que equivale a 6, con una subida del 3% por año se estima que cada año se irán agregando 11 municipios de un total de 345 en el país, a los cuales se pretende cobrar una suscripcion anual de $12.000.000.
+Según el flujo de caja realizado con una proyección para 5 años, en el primer año no se percibirán ganancias, sino hasta el año 2 donde se comenzará a ganar la cantidad de $95.360.000  anuales, esto teniendo en cuenta que en el primer año solo se tendrán el 2% de los municipios lo que equivale a 6, con una subida del 3% por año se estima que cada año se irán agregando 7 municipios de un total de 345 en el país, a los cuales se pretende cobrar una suscripcion anual de $12.000.000.
 La TIR señala que el proyecto es viable en un 213%.
 
 
