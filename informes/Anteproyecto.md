@@ -163,15 +163,15 @@ El o los testers de la aplicación solo deberán probar por el correcto funciona
 ## Objetivos
 ### General
 
-Desarrollar un sistema que permita obtener información acerca del estado y ubicación de las señales de tránsito a través de imágenes captadas por una cámara preinstalada en un vehículo, con esto lograr una mayor precisión en el análisis del estado de las calles y señaléticas, permitiendo así disminuir tiempo y recursos destinados a esta labor.
+Desarrollar un sistema que permita obtener información acerca del estado y ubicación de las señales de tránsito a través de imágenes captadas por una cámara preinstaladas en un vehículo, con esto lograr una mayor precisión en el análisis del estado de las calles y señaléticas, permitiendo así disminuir tiempo y recursos destinados a esta labor.
 
 > Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
 
 ### Específicos
 
-•	Analizar el 90% de las imágenes 
-•	Detectar al 90% la cantidad de anomalías que pueda llegar a tener una señal de transito
-•	Definir ubicación exacta del lugar en el que se encuentra cada señal de transito 
+- Analizar el 90% de las imágenes 
+- Detectar al 90% la cantidad de anomalías que pueda llegar a tener una señal de transito
+- Definir ubicación exacta del lugar en el que se encuentra cada señal de transito 
 
  
 
