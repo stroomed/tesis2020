@@ -29,10 +29,10 @@
 ---
 
 ## Resumen
+COVIS SpA una empresa dedicada a generar soluciones tecnologicas en el ambito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imagenes que contengan señales de transito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta informacion a traves de imagenes y con ello determinar el estado de las calles, señales de transito y su ubicacion segun el GPS. 
 
-COVIS SpA una empresa dedicada a generar soluciones tecnologicas en el ambito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imagenes de señales de transito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta informacion a traves de imagenes y con ello determinar el estado de las calles, señales de transito y su ubicacion segun el GPS. 
-
-Inspirados por complementar una aplicacion ya contruida se da inicio al desarrollo de un Software, el cual tendra como objetivo principal tomar datos de una imagen la cual seran entregadas por un automovil. A su vez cumplira con scannear las calles detallado las fallas en las señales de transito con un informe detallando las que se encuentran en mal estado o bien informar si se cuenta con esas señaleticas, con esto podremos tener la posicion de donde se encuentran dicho desperfecto por medio de una interfaz amigable con el usuario.
+Inspirados por complementar una aplicacion ya contruida se da inicio al desarrollo de un Software,
+el cual tendra como objetivo principal tomar datos de una imagen la cual seran entregadas por un automovil. A su vez cumplira con scannear las calles detallado las fallas en las señales de transito con un informe detallando las que se encuentran en mal estado o bien informar si se cuenta con esas señaleticas, con esto podremos tener la posicion de donde se encuentran dicho desperfecto por medio de una interfaz amigable con el usuario.
 
 En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
 
@@ -43,9 +43,7 @@ En el presente informe se analizará superficialmente de lo que trata el proyect
 
 COVIS SpA es una empresa de base tecnológica, recientemente creada con el objetivo de generar soluciones competitivas en el mercado de la inteligencia artificial, contando con soluciones basadas en visión por computador, IoT y análisis inteligente de datos.
 
-La empresa tendría la siguiente organización:
-
-![image](https://user-images.githubusercontent.com/62028929/79285792-8f204780-7e8c-11ea-8d55-3b071d9d4525.png)
+> Comentarios revisión: Falta un organigrama de la empresa. Revisen la ortografía.
 
 ### Problema u oportunidad
 
@@ -110,30 +108,25 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 #### Riesgos
 
-Durante el desarrollo de la API serán considerados todos los casos de falla posibles de parte del equipo, considerando como riesgos aquellas situaciones en que la API presente fallas y no se recupere.
-
-La falta de mantención tanto a hardware como a software producirían fallas en un futuro por ello se recomuenda dar matenimiento eventualmente.
-
-La falta de comunicacion por parte del equipo de trabajo podria atrasar el proyecto.
-
 
 #### Ventajas y Desventajas
 
-- los beneficios de la API estan en mejorar la informacion de la señales de transito para poder ayudar a los conductores a tener un viaje mas seguro.
-- Reparar las señales transito que esten en mal estado.
-- Contar con una aplicación unica 
+
 
 
 #### Beneficios Tangibles
 
 - Mayor alcance de informacion en cuanto a señaleticas.
 - Actualizar Información.
+- Mayor precisión en el analisis del estado de las señales de transito y calles
+
 
 #### Beneficios Intangibles 
 
 - La información será confiable.
 - Control y seguimiento de la señales de transito.
 - Aprovechar los recursos tecnológicos adquiridos.
+- Ahorra tiempo y esfuerzo
 
 
 #### Conclusión de Factibilidad
@@ -153,7 +146,7 @@ El o los testers de la aplicación solo deberán probar por el correcto funciona
 ## Objetivos
 ### General
 
-Desarrollar un sistema que pueda ser vendido o arrendado a municipios del país, el cual permitirá identificar las señales de tránsito y/o semáforos que estén dañados o, en su defecto, permita identificar lugares en los que sería necesario instalar uno.
+Desarrollar un sistema que permita obtener informacion acerca del estado de las señales de transito y calles a traves de imagenes, se instalaran camaras en vehiculos del municipio para recopilar las imagenes que vaya captando en cada recorrido y con ello lograr tener mayor precision en el analisis del estado de las calles y señaleticas, permitiendo asi disminuir tiempo y recursos. 
 
 > Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
 
