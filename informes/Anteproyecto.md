@@ -107,10 +107,18 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 #### Riesgos
 
+Durante el desarrollo de la API serán considerados todos los casos posibles por parte del equipo, considerando como riesgos aquellas situaciones en que la API presente fallas y no se recupere.
+
+- La falta de mantenimiento tanto a hardware como a software producirian fallas a futuro por ello se recomienda dar mantenimiento eventualmente.
+- La falta de comunicación por parte del grupo podria atrasar el desarrollo de la API.
+
 
 #### Ventajas y Desventajas
 
-
+Los beneficios de la Api estan encaminados a mejorar la informacion que se tienen de las señales de transito.
+- Reparar señaleticas en mal estado o simplemente las que no se encuentran.
+- La API sera unica ya que hasta el momento no hay otra que cumpla con lo mismo que la nuestra.
+- Mejorar el viaje en automovil.
 
 
 #### Beneficios Tangibles
@@ -129,6 +137,14 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 
 #### Conclusión de Factibilidad
+
+Al crear la API, los beneficios que se obtienen para la empresa son numerosas y el costo del mismo se recuperan con las ventajas y el ahorro en tiempo y esfuerzo.
+
+El proyecto presenta una solución optima y esta encaminado a generar servicios de calidad y confiables para los clientes.
+
+El costo total correspondiente al funcionamiento de la API seran cobradas por suscripciones mensuales a las entidades ya descritas.
+
+Anteriormente fueron mencionadas la ventajas de la API y por ello se procede a continuar con el desarrollo de esta ya que los resultados del análisis de factibilidad nos indican que el proyecto es viable y factible.
 
 
 
