@@ -10,8 +10,8 @@
 ---
 
 ### Índice
-1. Resumen
-2. Descripción del problema
+1. [Resumen](#resumen)
+2. [Descripción del problema](descripcion-del-problema)
    - Descripción de la empresa o negocio
    - Problema u oportunidad
    - Descripción del modelo de negocios
@@ -34,7 +34,6 @@ COVIS SpA una empresa dedicada a generar soluciones tecnológicas en el ámbito 
 Basados en lo anterior es necesaria la implementación de una interfaz gráfica que sea capaz de establecer la comunicación del cliente con el software antes mencionado, por esta razón se ha decidido implementar un api rest que sea capaz de recibir imágenes o videos para luego redireccionarlos al software el cual se encargara de analizarlas y finalmente identificar cada objeto detectado en la imagen, devolviendo los resultados para ser presentados al cliente en forma gráfica a través de una tabla que muestre el estado de las señales de tránsito, ubicación y tipo de señal de transito identificada.
 
 En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
-
 
 ---
 
