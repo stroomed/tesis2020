@@ -53,7 +53,7 @@ La empresa ha identificado la necesidad que tienen los municipios de mantener ac
 
 ### Descripción del modelo de negocios
 
-![image](https://user-images.githubusercontent.com/62028929/79285792-8f204780-7e8c-11ea-8d55-3b071d9d4525.png)
+![image](https://user-images.githubusercontent.com/62029314/79279697-93446900-7e7c-11ea-9638-3a4ed24b6aff.PNG)
 
 > Comentarios revisión: El canvas o modelo de negocios, es en relación a la solución completa, incluyendo el detector que desarrolla la empresa, ustedes son solo una parte de este producto. Socios clave: Solutiva, Universidad del Bio-Bio. Recursos claves: Sistema de detección (hardware, incluye cámaras). Segmento de clientes, falta empresas privadas. Actividades claves: Mejora continua algoritmo de detección, seguimiento continuo de normas del transito, informes mensuales con clientes. El flujo de ingresos no tiene sentido, compra no es un ingreso, gastos fijos tampoco, revisar!.
 
