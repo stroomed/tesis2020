@@ -146,7 +146,7 @@ El o los testers de la aplicación solo deberán probar por el correcto funciona
 ## Objetivos
 ### General
 
-Desarrollar un sistema que permita obtener informacion acerca del estado de las señales de transito y calles a traves de imagenes, se instalaran camaras en vehiculos del municipio para recopilar las imagenes que vaya captando en cada recorrido y con ello lograr tener mayor precision en el analisis del estado de las calles y señaleticas, permitiendo asi disminuir tiempo y recursos. 
+Desarrollar un sistema que permita obtener informacion acerca del estado de las señales de transito y calles a traves de imagenes, se instalaran camaras en vehiculos del municipio para recopilar las imagenes que vaya captando en cada recorrido y con ello lograr mayor precision en el analisis del estado de las calles y señaleticas, permitiendo asi disminuir tiempo y recursos. 
 
 > Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
 
