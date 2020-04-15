@@ -1,4 +1,4 @@
-# Nombre del proyecto
+# ActualizaStreet
 ## Anteproyecto
 
 #### Asignatura: Taller de proyecto de Software.
@@ -129,6 +129,7 @@ Los beneficios de la Api estan encaminados a mejorar la informacion que se tiene
 #### Desventajas
 
 - Estando en Chile, existe la posibilidad de que se intenet hacer una copia de nuestro software.
+- Funcionamiento del sistema acotado a la duración de la batería del computador que lo esté usando.
 
 #### Beneficios Tangibles
 
