@@ -29,12 +29,12 @@
 ---
 
 ## Resumen
-COVIS SpA una empresa dedicada a generar soluciones tecnologicas en el ambito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imagenes que contengan señales de transito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta informacion a traves de imagenes y con ello determinar el estado de las calles, señales de transito y su ubicacion segun el GPS. 
+COVIS SpA una empresa dedicada a generar soluciones tecnológicas en el ámbito de la inteligencia artificial, actualmente se encuentra desarrollando un software el cual es capaz de obtener y analizar datos de imágenes que contengan señales de tránsito, la idea de este proyecto es crear un software que sea capaz de extraer toda esta información a través de imágenes y con ello determinar el estado de las calles, señales de tránsito y su ubicación según el GPS.
 
-Inspirados por complementar una aplicacion ya contruida se da inicio al desarrollo de un Software,
-el cual tendra como objetivo principal tomar datos de una imagen la cual seran entregadas por un automovil. A su vez cumplira con scannear las calles detallado las fallas en las señales de transito con un informe detallando las que se encuentran en mal estado o bien informar si se cuenta con esas señaleticas, con esto podremos tener la posicion de donde se encuentran dicho desperfecto por medio de una interfaz amigable con el usuario.
+Basados en lo anterior es necesaria la implementación de una interfaz gráfica que sea capaz de establecer la comunicación del cliente con el software antes mencionado, por esta razón se ha decidido implementar un api rest que sea capaz de recibir imágenes o videos para luego redireccionarlos al software el cual se encargara de analizarlas y finalmente identificar cada objeto detectado en la imagen, devolviendo los resultados para ser presentados al cliente en forma gráfica a través de una tabla que muestre el estado de las señales de tránsito, ubicación y tipo de señal de transito identificada.
 
 En el presente informe se analizará superficialmente de lo que trata el proyecto, dando a conocer el problema al cual está enfocado, la solución para dicho problema, contando con sus respectivas factibilidades, además del alcance y restricciones del proyecto en base a las habilidades de los integrantes del equipo de trabajo y finalizando con los objetivos generales y específicos del proyecto.
+
 
 ---
 
@@ -83,11 +83,9 @@ Automatizar el proceso de la actualización de la información correspondiente a
 
 #### Económica
 
-![image](https://user-images.githubusercontent.com/62030014/78712305-6f19e280-78e6-11ea-8567-061f6c235103.png)
 
-![image](https://user-images.githubusercontent.com/62030014/78712332-793be100-78e6-11ea-9f68-4639cc1afae7.png)
 
-Segun el estudio economico, el proyecto al no ser con fines de lucro y solo de caracter educacional no contempla ni una inversion ni ganancia monetaria, solamente conocimiento adquirido por los creadores gracias a la investigación.
+
 
 > Comentarios revisión: Lo anterior no quita el análisis de factibilidad. Deben ver el proyecto como un todo, y limitarse al desarrollo de tu parte. Osea aunque el desarrollo de ustedes cueste 0, el proyecto debe dar indicios de las ganancias esperadas del servicio y los costos de mantención del mismo. Si no manejan esos datos, deben consultarlos conmigo.
 
@@ -137,28 +135,30 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 ### Alcances y restricciones
 
-El desarrollo de esta aplciación se limitará a la creación de la aplicación web que pueda recibir los datos de la API ya existente, trabaje los datos recibidos y le entregue la información al usuario.
+El desarrollo de este proyecto se limitará a la creación de una interfaz que sea capaz de enviar y recibir datos de la API ya existente, ordenarlos y posteriormente mostrarlos de forma grafica a través de una tabla que contenga toda la información. 
 
 Por su parte, la aplicación será desarrollada exclusivamente con Django Rest, por lo que los programadores deberán trabajar únicamente con el lenguaje Python.
 
 El o los testers de la aplicación solo deberán probar por el correcto funcionamiento de la aplicación, por lo que no es estrictamente necesario que ellos sepan python a cabalidad.
+
 
 ---
 
 ## Objetivos
 ### General
 
-Desarrollar un sistema que permita obtener informacion acerca del estado de las señales de transito y calles a traves de imagenes, instalando camaras en vehiculos del municipio para recopilar las imagenes que vaya captando en cada recorrido y con ello lograr mayor precision en el analisis del estado de las calles y señaleticas, permitiendo asi disminuir tiempo y recursos. 
+Desarrollar un sistema que permita obtener información acerca del estado y ubicación de las señales de tránsito a través de imágenes captadas por una cámara preinstalada en un vehículo, con esto lograr una mayor precisión en el análisis del estado de las calles y señaléticas, permitiendo así disminuir tiempo y recursos destinados a esta labor.
 
 > Comentarios revisión: Deben corregir la redacción. Adicionalmente, es necesario responder las 3 preguntas, que? como? para que? . El como no existe en ese objetivo
 
 ### Específicos
 
-- Determinar datos que se recibirán de la API.
-- Modelar un sistema que pueda trabajar con los datos recibidos.
-- Diseñar una interfaz de usuario para el sistema y que incluya un control de inicio de sesión.
-- Realizar pruebas para validar el rendimiento de la aplicación.
-- Entregar la aplicación finalizada al cliente.
+•	Analizar el 90% de las imágenes 
+•	Detectar al 90% la cantidad de anomalías que pueda llegar a tener una señal de transito
+•	Definir ubicación exacta del lugar en el que se encuentra cada señal de transito 
+
+ 
+
 
 > Comentarios revisión: Lo anterior son tareas no objetivos
 
