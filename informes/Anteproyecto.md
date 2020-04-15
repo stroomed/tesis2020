@@ -110,18 +110,18 @@ Por lo que, en caso de que se utilice la imagen de una persona para publicidad (
 
 #### Riesgos
 
-- Falta de mantención 
-- Falta de comunicación 
+Durante el desarrollo de la API serán considerados todos los casos de falla posibles de parte del equipo, considerando como riesgos aquellas situaciones en que la API presente fallas y no se recupere.
+
+La falta de mantención tanto a hardware como a software producirían fallas en un futuro por ello se recomuenda dar matenimiento eventualmente.
+
+La falta de comunicacion por parte del equipo de trabajo podria atrasar el proyecto.
 
 
 #### Ventajas y Desventajas
 
--
-
-
--
-
-
+- los beneficios de la API estan en mejorar la informacion de la señales de transito para poder ayudar a los conductores a tener un viaje mas seguro.
+- Reparar las señales transito que esten en mal estado.
+- Contar con una aplicación unica 
 
 
 #### Beneficios Tangibles
