@@ -73,7 +73,7 @@ La empresa ha identificado la necesidad que tienen los municipios de mantener ac
 
 ### Solución propuesta
 
-Automatizar el proceso de actualización de la información correspondiente al estado en el que se encuentran las señales de tráfico en una ciudad determinada, lo cual se logrará por medio del desarrollo de una API que permita interpretar los datos recibidos y se los entregue al usuario ya como información para su uso.
+Automatizar el proceso de actualización de la información correspondiente al estado en el que se encuentran las señales de tráfico en una ciudad determinada, para ello Covis SpA ha decidido desarrollar un software que sea capaz de detectar y analizar señales de transito a traves de imagenes recibidas de una camara preinstalada en un automovil y como parte de esta solucion es necesario implementar una interfaz la cual permita la comunicacion del usuario final con el software, por esta razon se pretende crear una API REST que logre interpretar los datos recibidos y sea capaz de entregarselos al usuario ya como informacion para su uso.
 
 > Comentarios revisión: La solución es con relación al problema, incluye la detección de señales. Ustedes deben mencionar que como parte de la solución completa se restringirán a desarrollar el api de comunicación entre el hardware y el usuario final, definiendo lo que describen anteriormente.
 
