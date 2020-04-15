@@ -20,11 +20,12 @@
    - Requisitos
    - Solución propuesta
    - Estudio de factibilidad
+   - Riesgos
    - Alcances y restricciones
 4. [Objetivos](#objetivos)
    - General
    - Específicos
-5. Referencias bibliográficas
+5. [Referencias bibliográficas](#referencias-bibliográficas)
 
 ---
 
@@ -98,18 +99,9 @@ Sin embargo, en el artículo 19 de la Constitución, N° 4, indica que:
 
 Por lo que, en caso de que se utilice la imagen de una persona para publicidad (por ejemplo), esa persona podrá solicitar el no uso de su imagen sin su consentimiento.
 
-#### Riesgos
-
-Durante el desarrollo de la API serán considerados todos los casos posibles por parte del equipo, considerando como riesgos aquellas situaciones en que la API presente fallas y no se recupere.
-
-- La falta de mantenimiento tanto a hardware como a software producirian fallas a futuro por ello se recomienda dar mantenimiento eventualmente.
-- La falta de comunicación por parte del grupo podria atrasar el desarrollo de la API.
-- La falta de conocimiento en programas que se utilizaran.
-
-
 #### Ventajas
 
-Los beneficios de la Api estan encaminados a mejorar la informacion que se tienen de las señales de transito.
+Los beneficios de la Api estan encaminados a mejorar la informacion que se tienen de las señales de tránsito.
 - Reparar señaleticas en mal estado o simplemente las que no se encuentran.
 - La API sera unica ya que hasta el momento no hay otra que cumpla con lo mismo que la nuestra.
 - Mejorar el viaje en automovil.
@@ -124,14 +116,12 @@ _agregar desventajas_
 - Actualizar Información.
 - Mayor precisión en el analisis del estado de las señales de transito y calles
 
-
 #### Beneficios Intangibles 
 
 - La información será confiable.
 - Control y seguimiento de la señales de transito.
 - Aprovechar los recursos tecnológicos adquiridos.
 - Ahorra tiempo y esfuerzo
-
 
 #### Conclusión de Factibilidad
 
@@ -142,6 +132,14 @@ El proyecto presenta una solución optima y esta encaminado a generar servicios 
 El costo total correspondiente al funcionamiento de la API seran cobradas por suscripciones mensuales a las entidades ya descritas.
 
 Anteriormente fueron mencionadas la ventajas de la API y por ello se procede a continuar con el desarrollo de esta ya que los resultados del análisis de factibilidad nos indican que el proyecto es viable y factible.
+
+### Riesgos
+
+Durante el desarrollo de la API serán considerados todos los casos posibles por parte del equipo, considerando como riesgos aquellas situaciones en que la API presente fallas y no se recupere.
+
+- La falta de mantenimiento tanto a hardware como a software producirian fallas a futuro por ello se recomienda dar mantenimiento eventualmente.
+- La falta de comunicación por parte del grupo podria atrasar el desarrollo de la API.
+- La falta de conocimiento en programas que se utilizaran.
 
 ### Alcances y restricciones
 
