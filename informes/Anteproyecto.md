@@ -111,6 +111,7 @@ Durante el desarrollo de la API serán considerados todos los casos posibles por
 
 - La falta de mantenimiento tanto a hardware como a software producirian fallas a futuro por ello se recomienda dar mantenimiento eventualmente.
 - La falta de comunicación por parte del grupo podria atrasar el desarrollo de la API.
+- La falta de conocimiento en programas que se utilizaran.
 
 
 #### Ventajas y Desventajas
