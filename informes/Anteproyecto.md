@@ -75,7 +75,7 @@ La empresa ha identificado la necesidad que tienen los municipios de mantener ac
 
 ### Solución propuesta
 
-Automatizar el proceso de la actualización de la información correspondiente al estado de las señales de tráfico de la ciudad, lo cual se logrará por medio del desarrollo de una API que permita interpretar los datos recibidos y se los entregue al usuario ya como información para su uso.
+Automatizar el proceso de actualización de la información correspondiente al estado en el que se encuentran las señales de tráfico en una ciudad determinada, lo cual se logrará por medio del desarrollo de una API que permita interpretar los datos recibidos y se los entregue al usuario ya como información para su uso.
 
 > Comentarios revisión: La solución es con relación al problema, incluye la detección de señales. Ustedes deben mencionar que como parte de la solución completa se restringirán a desarrollar el api de comunicación entre el hardware y el usuario final, definiendo lo que describen anteriormente.
 
@@ -84,8 +84,6 @@ Automatizar el proceso de la actualización de la información correspondiente a
 #### Económica
 
 ![image](https://user-images.githubusercontent.com/62030014/79291358-6e5fee00-7e9c-11ea-93ad-9c0bc4b9ac7c.png)
-
-
 
 
 > Comentarios revisión: Lo anterior no quita el análisis de factibilidad. Deben ver el proyecto como un todo, y limitarse al desarrollo de tu parte. Osea aunque el desarrollo de ustedes cueste 0, el proyecto debe dar indicios de las ganancias esperadas del servicio y los costos de mantención del mismo. Si no manejan esos datos, deben consultarlos conmigo.
