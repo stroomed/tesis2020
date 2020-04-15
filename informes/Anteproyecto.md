@@ -81,10 +81,9 @@ Automatizar el proceso de actualización de la información correspondiente al e
 
 #### Económica
 
-![image](https://user-images.githubusercontent.com/62030014/79291358-6e5fee00-7e9c-11ea-93ad-9c0bc4b9ac7c.png)
+![image](https://user-images.githubusercontent.com/62030014/79377578-e7595700-7f29-11ea-9698-b27a0ecec83f.png)
 
-![image](https://user-images.githubusercontent.com/62030014/79373574-c4787400-7f24-11ea-9f61-388281f51c1f.png)
-
+![image](https://user-images.githubusercontent.com/62030014/79377590-ede7ce80-7f29-11ea-8c02-397556eba95d.png)
 #### Técnica
 
 ![image](https://user-images.githubusercontent.com/62029314/79279878-ff26d180-7e7c-11ea-866d-b12f4dae5b7f.PNG)
