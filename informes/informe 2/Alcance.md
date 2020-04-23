@@ -1,4 +1,4 @@
-_agregar alcance_
+_corregir alcance_
 
 El desarrollo de este proyecto se limitará a la creación de una interfaz que sea capaz de enviar y recibir datos de la API ya existente, ordenarlos y posteriormente mostrarlos de forma grafica a través de una tabla que contenga toda la información.
 
