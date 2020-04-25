@@ -1,10 +1,17 @@
-_alcance anterior_
+### Objetivo General
 
-El desarrollo de este proyecto se limitará a la creación de una interfaz que sea capaz de enviar y recibir datos de la API ya existente, ordenarlos y posteriormente mostrarlos de forma grafica a través de una tabla que contenga toda la información.
+Este proyecto se enfocará en desarrollar un sistema que permita obtener información acerca de la ubicación y el estado físico de las señales de tránsito, por medio de cámaras de video instaladas en los vehículos de el o los clientes que utilicen dicho sistema. Todo esto tendrá la finalidad de permitir una mayor y mejor precisión en el análisis de las señaléticas, disminuyendo los recursos destinados actualmente a esta tarea.
 
-Por su parte, la aplicación será desarrollada exclusivamente con Django Rest, por lo que los programadores deberán trabajar únicamente con el lenguaje Python.
+### Objetivos Específicos
 
-El o los testers de la aplicación solo deberán probar por el correcto funcionamiento de la aplicación, por lo que no es estrictamente necesario que ellos sepan python a cabalidad.
+- De la totalidad de imágenes recibidas, el sistema deberá interpretar de manera correcta al menos el 90% de ellas.
+- La interfaz del sistema deberá ser agradable a usuario y, por sobre todo, deberá ser responsiva.
+- 
 
-_alcance corregido_
+### Alcance del Proyecto
 
+El sistema se desarrollará en base al lenguaje de programación Python y a su framework Django, por lo que los programadores deberán saber este lenguaje y el uso del framework anteriormente mencionado, mientras que el resto del equipo deberán tener nociones básicas de programación.
+
+El funcionamiento de la aplicación web se limitará a la recepción de imágenes (y posiblemente video) desde una API ya existente, interpretar los datos recibidos y entregar la información al usuario que los esté solicitando. Además, la aplicación deberá guardar un registro de los datos procesados y los usuarios que hayan solicitado dicha información.
+
+Por último, el sistema tendrá un nivel de seguridad tal que, si un usuario no se encuentra registrado y/o con permisos, no podrá ingresar a la aplicación.
