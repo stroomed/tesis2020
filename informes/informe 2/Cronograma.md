@@ -1,3 +1,5 @@
+### Gestión del Cronograma del Proyecto
+
 El cronograma de este proyecto, basado en el EDT presentado anteriormente, es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/43097139/81096375-429cba80-8ed4-11ea-9744-774974516d52.png)
