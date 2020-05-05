@@ -1,5 +1,5 @@
-## Asignación de responsabilidades
-### Roles
+### Asignación de responsabilidades
+#### Roles
 
 •	Director de proyecto: Quien lidera y guia al equipo de proyecto.
 
@@ -11,7 +11,7 @@
 
 •	Equipo de proyecto: Encargados del desarrollo del software.
 
-### Roles y encargados
+#### Roles y encargados
 
 Rol | Responsable
 -- | --
@@ -21,7 +21,7 @@ Equipo QA | Gabriel Barria
 Control de riesgos | Nicol Quintuy
 Equipo de trabajo | Ricardo Gutiérrez, Fabricio Guzmán, Gabriel Barria, Nicol Quintuy.
 
-### Actividades y responsables
+#### Actividades y responsables
 
 Actividad ID No. | Nombre de actividad | Responsable
 -- | -- | --
@@ -37,8 +37,8 @@ Actividad ID No. | Nombre de actividad | Responsable
 10 | Entrega de API | Equipo de trabajo
 11 | Manual de usuario | Equipo de trabajo
 
-## Plan de aseguramiento de calidad
-### Propósito 
+### Plan de aseguramiento de calidad
+#### Propósito 
 En proyectos de implementación, es normal que los planes de trabajo puedan sufrir cambios durante el transcurso de este, los cuales pueden afectar de forma negativa los objetivos generales del proyecto. Por esta razón, es importante crear mecanismos que ayuden a identificar y remediar cualquier problema que pueda afectar el correcto rumbo del proyecto.  
 
 En el siguiente plan de aseguramiento de calidad, se busca definir los procedimientos y reglas fundamentales que permitan asegurar un correcto flujo del proyecto sin caer en desviaciones, el cual, también será aplicado a todos los procedimientos y entregables del proyecto. 
