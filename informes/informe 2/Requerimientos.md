@@ -1,3 +1,7 @@
+### Requerimientos
+
+A partir de las distintas reuniones sostenidas con el cliente, se presentan los requerimientos junto a la especificación correspondiente.
+
 Código | Requerimiento | Especificación
 -- | -- | --
 Requerimientos Funcionales
