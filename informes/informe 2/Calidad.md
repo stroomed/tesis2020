@@ -70,7 +70,8 @@ El equipo QA es el encargado de monitorear como todas las tareas y responsabilid
 •	Auditar periódicamente la performance de los productos desarrollados para determinar el cumplimiento de los estándares 
 
 •	Participar en todas las revisiones a fin de cada fase del proyecto y registrar formalmente si los estándares y procedimientos no se alcanzaron satisfactoriamente.
- 
+
+
 **Actividades del equipo QA**
 
 •	Verificación de Entregables.
