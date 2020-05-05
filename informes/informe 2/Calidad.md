@@ -1,20 +1,15 @@
 ## Asignación de responsabilidades
 ### Roles
 
-•	Director de proyecto
-Es el encargado de liderar y guiar al equipo del proyecto.
+•	Director de proyecto: Quien lidera y guia al equipo de proyecto.
 
-•	Analista
-Es el encargado de analizar y definir los requisitos del cliente.
+•	Analista: Cumple la tarea de analizar y definir los requisitos del cliente.
 
-•	Equipo QA
-Es el encargado de que los objetivos de calidad del proyecto sean cumplidos.
+•	Equipo QA: Velan para que los objetivos de calidad del proyecto sean cumplidos.
 
-•	Control de riesgos
-Es el encargado evaluar los riesgos y verificar existencia de errores dentro del proyecto.
+•	Control de riesgos: Evalua los riesgos y verifica existencia de errores dentro del proyecto.
 
-•	Equipo de proyecto
-Encargados del desarrollo del software.
+•	Equipo de proyecto: Encargados del desarrollo del software.
 
 ### Roles y encargados
 
@@ -25,9 +20,6 @@ Analista | Fabricio Guzmán
 Equipo QA | Gabriel Barria
 Control de riesgos | Nicol Quintuy
 Equipo de trabajo | Ricardo Gutiérrez, Fabricio Guzmán, Gabriel Barria, Nicol Quintuy.
-
-
-
 
 ### Actividades y responsables
 
@@ -45,24 +37,25 @@ Actividad ID No. | Nombre de actividad | Responsable
 10 | Entrega de API | Equipo de trabajo
 11 | Manual de usuario | Equipo de trabajo
 
-
-
 ## Plan de aseguramiento de calidad
 ### Propósito 
-En proyectos de implementación, es normal que los planes de trabajo puedan sufrir cambios durante el transcurso de este, estos cambios pueden afectar de forma negativa los objetivos generales del proyecto. Por esta razón, es importante crear mecanismos que ayuden a identificar y remediar cualquier problema que pueda afectar el correcto rumbo del proyecto.  
+En proyectos de implementación, es normal que los planes de trabajo puedan sufrir cambios durante el transcurso de este, los cuales pueden afectar de forma negativa los objetivos generales del proyecto. Por esta razón, es importante crear mecanismos que ayuden a identificar y remediar cualquier problema que pueda afectar el correcto rumbo del proyecto.  
 
-En el siguiente plan de aseguramiento de calidad, se busca definir los procedimientos y reglas fundamentales para asegurar un correcto flujo del proyecto, sin caer en desviaciones, también, será aplicado a todos los procedimientos y entregables del proyecto. Los principales objetivos del plan son los siguientes:
+En el siguiente plan de aseguramiento de calidad, se busca definir los procedimientos y reglas fundamentales que permitan asegurar un correcto flujo del proyecto sin caer en desviaciones, el cual, también será aplicado a todos los procedimientos y entregables del proyecto. 
+
+Los principales objetivos del plan son:
 
 •	Mejorar la calidad del producto entregado monitoreándolo apropiadamente.
 
 •	Asegurar el cumplimiento de estándares y procedimientos para el software.
 
 •	Descubrir cualquier defecto del producto en cuanto se origine y facilitar la gestión de forma que se puedan tomar acciones correctoras.
+
 •	Descubrir desvíos en el plan, y tomar decisiones que puedan corregir dichas desviaciones.
 
 **Organización QA**
 
-Para realizar acciones que ayuden a la buena gestión de la calidad, se debe crear un equipo que permita analizar las consecuencias de desviaciones del plan original, y también de aplicar las correctas medidas para conseguir los objetivos generales del proyecto. Cabe aclarar que es tarea de todos los socios el cumplir con el nivel de calidad y descubrir desviaciones en el proyecto.
+Para realizar acciones que ayuden a la buena gestión de la calidad, se debe crear un equipo que permita analizar las consecuencias que podrían tener las desviaciones del plan original y, también, para aplicar las correctas medidas que ayuden a cumplir el o los objetivos del proyecto. Cabe aclarar que es tarea de todos los socios el cumplir con el nivel de calidad y descubrir desviaciones en el proyecto.
 
 El equipo QA es el encargado de monitorear como todas las tareas y responsabilidades de los diferentes equipos de trabajo son llevados a cabo en sus diferentes etapas del proyecto. Las responsabilidades del equipo QA se describen a continuación:
 
@@ -77,9 +70,8 @@ El equipo QA es el encargado de monitorear como todas las tareas y responsabilid
 •	Auditar periódicamente la performance de los productos desarrollados para determinar el cumplimiento de los estándares 
 
 •	Participar en todas las revisiones a fin de cada fase del proyecto y registrar formalmente si los estándares y procedimientos no se alcanzaron satisfactoriamente.
-
  
-**Actividades equipo QA**
+**Actividades del equipo QA**
 
 •	Verificación de Entregables.
 
@@ -91,13 +83,11 @@ El equipo QA es el encargado de monitorear como todas las tareas y responsabilid
 
 •	Supervisión del cumplimiento de los estándares establecidos. 
 
-
 **Revisión de Entregables**
 
+Todos los productos entregables deberán ser revisados por el equipo QA, definiendo su conformidad en base a los estándares definidos y a los objetivos de cada uno de ellos.
 
-Todos los productos entregables deberán ser revisados por el equipo QA, definiendo su conformidad en base a los estándares definidos y los objetivos de cada uno de ellos.
-
-En cuanto a los productos de software, los mismos desarrolladores una vez concluido cada una de sus etapas deberán testear la correcta funcionalidad de su producto, luego el equipo de QA deberá testear el producto a través de pruebas unitarias determinando que cumplan con los requerimientos establecidos por el cliente.
+En cuanto a los productos de software, los mismos desarrolladores, una vez concluidas cada una de sus etapas, deberán testear la correcta funcionalidad del producto, para que después el equipo de QA realice tests del producto a través de pruebas unitarias, determinando que cumplan con los requerimientos establecidos por el cliente.
 
 Se deben comprobar que no queden pruebas sin revisar y de haberlas se tienen que documentar.
 Verificación de documentación 
@@ -185,8 +175,6 @@ Opciones y desviaciones del proceso
 ¿Se ha especificado la frecuencia y asistencia de las reuniones   del equipo de proyecto? |   |   |   |   |  
 ¿Se ha especificado la frecuencia de las reuniones de aceptación   de Fase/Etapa? |   |   |   |   |  
 
-
-
 ### Referencias:
 
 Acrónimo | Significado | Descripción
@@ -195,8 +183,6 @@ SI | Adecuado | El ítem se cumple correctamente
 NO | No adecuado | El ítem no se cumple o se cumple solo en parte
 FM | Falta mejora | El ítem se cumple, pero puede optimizarse
 NA | No aplica | El ítem no aplica al proyecto
-
-
 
 **Verificar la viabilidad de cada hito al comienzo de este.**
 
@@ -236,7 +222,6 @@ Como estándar se utiliza el documento de especificación de áreas del conocimi
 Como estándar se utiliza el documento de: “Std 1012-2004 IEEE Standard for
 Software Verification and Validation Plans.” 
 
-
 Resumen Std. IEEE 1012-2004 Standard for Software Verification and
 Validation Plans
 IEEE Standard for Software
@@ -251,27 +236,15 @@ IEEE-SA Standards Board
 
 Resumen:
 
-Los procesos de verificación y validación de software (V & V) permiten determinar si los
-productos de desarrollo de una actividad determinada están conforme a las
-disposiciones de dicha actividad y si el software cumple su uso previsto y las
-necesidades del usuario. El ciclo de vida del proceso V & V valida y verifica los
-requisitos especificados para los distintos niveles de integridad del software.
-El ámbito de aplicación de los procesos V & V incluye el software desarrollado, el
-software de los computadores utilizados, el hardware, y las interfaces. Esta verificación
-y validación (V & V) es una norma que aborda todos los procesos del ciclo de vida del
-software, incluyendo la adquisición, suministro, desarrollo, operación y mantenimiento.
-Esta norma es compatible con todos los modelos de ciclo de vida, sin embargo, no
-todos los modelos de ciclo de vida utiliza todos los procesos que figuran en esta norma.
-Esta norma se refiere a software desarrollado, mantenido o reutilizado (legado,
-Commercial Off-theshelf (COTS), ítems no desarrollados). El término software también
-incluye el firmware, microcódigo, y la documentación.
+Los procesos de verificación y validación de software (V & V) permiten determinar si los productos de desarrollo de una actividad determinada están conforme a las disposiciones de dicha actividad y si el software cumple su uso previsto y las necesidades del usuario. El ciclo de vida del proceso V & V valida y verifica los requisitos especificados para los distintos niveles de integridad del software.
+El ámbito de aplicación de los procesos V & V incluye el software desarrollado, el software de los computadores utilizados, el hardware, y las interfaces. Esta verificación y validación (V & V) es una norma que aborda todos los procesos del ciclo de vida del software, incluyendo la adquisición, suministro, desarrollo, operación y mantenimiento.
+
+Esta norma es compatible con todos los modelos de ciclo de vida, sin embargo, no todos los modelos de ciclo de vida utiliza todos los procesos que figuran en esta norma.
+
+Esta norma se refiere a software desarrollado, mantenido o reutilizado (legado, Commercial Off-theshelf (COTS), ítems no desarrollados). El término software también incluye el firmware, microcódigo, y la documentación.
+
 Los procesos V & V incluyen el análisis, evaluación, revisión, inspección, valoración, y
 pruebas de productos de software.
+
 Palabras clave: IV&V, software integrity level, software life cycle, V&V, validation,
 verification.
-
-
-
-
-
-
