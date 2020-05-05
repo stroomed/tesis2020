@@ -1,3 +1,5 @@
+### Estructura de Descomposición del Trabajo
+
 Para este proyecto, la estructura de descomposición del trabajo, o mejor conocido como EDT, es el siguiente:
 
 ![EDT](https://user-images.githubusercontent.com/62028929/80931391-89c96500-8d87-11ea-824a-119b4cbee94b.png)
