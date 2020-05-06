@@ -91,7 +91,9 @@ Todos los productos entregables deberán ser revisados por el equipo QA, definie
 En cuanto a los productos de software, los mismos desarrolladores, una vez concluidas cada una de sus etapas, deberán testear la correcta funcionalidad del producto, para que después el equipo de QA realice tests del producto a través de pruebas unitarias, determinando que cumplan con los requerimientos establecidos por el cliente.
 
 Se deben comprobar que no queden pruebas sin revisar y de haberlas se tienen que documentar.
-Verificación de documentación 
+
+**Verificación de documentación** 
+
 Especificación de Requerimientos
 
 El documento de especificación de requisitos debe ser explicados correcta y completamente, permitiendo dar una explicación clara de las necesidades del cliente.
