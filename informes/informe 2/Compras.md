@@ -8,13 +8,15 @@ Los costos por hora están basados en el promedio del salario de un ingeniero in
 
 #### Recursos Internos 
 
-Cada actividad está basada en las fases que tendrá el proyecto.
+Basados en el EDT, se ha determinado la cantidad de días que tendrá cada fase del proyecto y suponiendo que cada día se trabajaría 7 horas, se multiplica los días trabajados por la cantidad de horas (días trabajados*7). Con esto se tiene por resultado las horas reales de trabajo.
+En la siguiente tabla, se definen la cantidad de horas reales correspondientes a cada fase del proyecto y el valor en dinero que estas tendrán con respecto al promedio del salario de un ingeniero informático en Chile.
 
 
-Actividad | Horas/personal | Precio
+
+Actividad | Horas*valor hora/personal | Precio
 -- | -- | --
-Fase de análisis | 98*6.462 / Equipo   de trabajo | $633.276.-
-Fase de diseño | 98*6.462/ Equipo de   trabajo | $633.276.-
+Fase de análisis | 105*6.462 / Equipo   de trabajo | $633.276.-
+Fase de diseño | 119*6.462/ Equipo de   trabajo | $633.276.-
 Fase de desarrollo | 210*6.462/ Equipo   de trabajo | $1.357.020.-
 Fase de pruebas | 98*6.462/ Equipo de   trabajo | $633.276.-
 Implementación | 49*6.462/ Equipo de   trabajo | $316.638.-
