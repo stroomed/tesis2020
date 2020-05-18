@@ -4,6 +4,8 @@ El cronograma de este proyecto, basado en el EDT presentado anteriormente, es el
 
 ![image](https://user-images.githubusercontent.com/43097139/81096375-429cba80-8ed4-11ea-9744-774974516d52.png)
 
+**Comentarios: Debo entender que la fase de pruebas y fase de entrega, se extiende luego de la duración del curso**
+
 Además, a continuación se presenta el deglose de la carta Gantt.
 
 ![image](https://user-images.githubusercontent.com/43097139/81095135-93abaf00-8ed2-11ea-8585-6373cc0d59a9.png)

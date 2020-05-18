@@ -146,34 +146,48 @@ expresados en el documento de requerimientos.
 
 Para ejercer la estrategia se debe implementar una plantilla la cual tendrá como objetivo referenciar que se ha cumplido y que no, además de tener un control sobre las actividades.
 
+**Comentarios: Nuevamente las tablas estaban mal hechas!**
+
+**Gestión del proyecto**
 Verificación | SI | NO | FM | NA | Observaciones 
 -- | -- | -- | -- | --| --| 
-**Gestión del proyecto**
 ¿Se ha definido el objetivo del proyecto? |   |   |   |   |  
 ¿Se ha definido el alcance del proyecto? |   |   |   |   |  
 ¿Se han listado los entregables que se generaran durante la ejecución   del proyecto, describiendo sus objetivos de calidad en términos de requerimientos   de salida de calidad y aprobación? |   |   |   |   |  
 **Organización del equipo del proyecto**
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
 ¿Se ha descrito la estructura organizacional del equipo de   proyecto? |   |   |   |   |  
 ¿Se definieron los roles y responsabilidades? |   |   |   |   |  
 Opciones y desviaciones del proceso
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
 ¿Se ha identificado el ciclo de vida y fases e iteraciones a   ser utilizadas en el proyecto? |   |   |   |   |  
 ¿Se han identificado y descrito las desviaciones del proceso   definidas por la administración del proyecto? |   |   |   |   |  
 **Planificación del proyecto**
-¿S e ha referenciado o descrito las estimaciones de tamaño, esfuerzo   y cualquier calculo e información de soporte? ¿Se ha referenciado a un documento   separado o incluido las estimaciones de costo e información de soporte? |   |   |   |   |  
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
+¿Se ha referenciado o descrito las estimaciones de tamaño, esfuerzo   y cualquier calculo e información de soporte? ¿Se ha referenciado a un documento   separado o incluido las estimaciones de costo e información de soporte? |   |   |   |   |  
 ¿Las estimaciones cuentan con información histórica? |   |   |   |   |  
 ¿Se ha descrito un plan de equipamiento necesario? |   |   |   |   |  
 ¿Se han indicado las necesidades de infraestructura? ¿Se ha referenciado   o incluido la adaptación a los ambientes de trabajos estándares de la organización? |   |   |   |   |  
 ¿Se ha descrito o referenciado un plan de recursos humanos? |   |   |   |   |  
 ¿Se ha identificado la capacitación requerida por los recursos   afectados y como se llevara a cabo? |   |   |   |   |  
 **Programación**
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
 ¿Se ha referenciado o incluido en la programación de actividades,   tareas, recursos y responsabilidades asignadas |   |   |   |   |  
 **Planes para las actividades de soporte**
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
 ¿Se ha descrito o referenciado el plan de calidad? |   |   |   |   |  
 ¿Se ha descrito o referenciado un plan de riesgos? |   |   |   |   |  
 ¿Se ha descrito o referenciado el plan de pruebas de software? |   |   |   |   |  
 ¿Se ha descrito o referenciado el plan de comunicaciones? |   |   |   |   |  
 ¿Se identificaron las dependencias criticas? |   |   |   |   |  
 **Monitoreo y control de proyecto**
+Verificación | SI | NO | FM | NA | Observaciones 
+-- | -- | -- | -- | --| --| 
 ¿Se ha especificado el tipo y frecuencia de producción de los   reportes del proyecto? |   |   |   |   |  
 ¿Se ha especificado la frecuencia y asistencia de las reuniones   del equipo de proyecto? |   |   |   |   |  
 ¿Se ha especificado la frecuencia de las reuniones de aceptación   de Fase/Etapa? |   |   |   |   |  
@@ -251,3 +265,5 @@ pruebas de productos de software.
 
 Palabras clave: IV&V, software integrity level, software life cycle, V&V, validation,
 verification.
+
+**Comentarios:No existen criterios de aceptación**

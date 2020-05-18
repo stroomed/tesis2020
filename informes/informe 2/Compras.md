@@ -22,6 +22,8 @@ Fase de pruebas | 98*6.462/ Equipo de   trabajo | $633.276.-
 Implementación | 49*6.462/ Equipo de   trabajo | $316.638.-
 Total |   | $3.573.486.-
 
+**Comentarios: Dos de los 5 valores estan mal multiplicados. Es mas, no se entiende porque se trata de dividir por el equipo de trabajo.**
+
 #### Infraestructura
 
 La siguiente tabla describe la infraestructura necesaria para la correcta ejecución del proyecto.
@@ -40,6 +42,9 @@ VPS / 7 meses | $164.560.-
 Dominio | $10.000.-
 Personal de   Interfaz | $1.050.000.- al   mes
 Total | $1.224.560.-
+
+
+**Comentarios: De donde salio el VPS y el dominio. Nunca fue un requerimiento!.De hecho, aunque usaramos un VPS, costaria mucho mas que eso, porque necesitaria GPUs**
 
 #### Otros gastos en módulo interfaz
 
@@ -71,3 +76,5 @@ ID | Tipo | Descripción | Restricciones | Duración
 03 | Software | Base de datos MongoDB. | Recomendación del docente. | Durante el desarrollo de la API.
 04 | Software | Compra del VPS para la API. | Plan Básico de Google Cloud | Mientras se requiera que la API esté   en funcionamiento.
 05 | Software | Compra del dominio, para subir la API | Dominio está incluido en Google   Cloud. | Mientras se requiera que la API esté   en funcionamiento.
+
+**Comentarios: La base de datos mongoDB no es necesaria comprarla, el dominio tampoco.**

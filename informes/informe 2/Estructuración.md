@@ -4,6 +4,8 @@ Para este proyecto, la estructura de descomposición del trabajo, o mejor conoci
 
 ![EDT](https://user-images.githubusercontent.com/62028929/80931391-89c96500-8d87-11ea-824a-119b4cbee94b.png)
 
+**Comentarios: Falta el desarrollo de la interfaz web!**
+
 Además, para una mejor comprensión, se incluye el diccionario de dicho EDT.
 
 Código | 1. Fase de análisis
@@ -455,3 +457,5 @@ Resultados | Manual Creado y entregado.
 Restricciones | No aplica
 Dependencias | 5.2
 Criterios de aceptación | Aceptación del equipo y cliente
+
+**Comentarios: El EDT carece de detalles, la descripción no es tal!**

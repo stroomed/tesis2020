@@ -8,6 +8,8 @@ Desarrollar una interfaz web qué, por medio de IA y cámaras de video, se encar
 - La interfaz del sistema deberá ser agradable al usuario y, por sobre todo, deberá ser responsive.
 - La aplicación deberá tener la capacidad de mantenerse actualizada en tiempo real.
 
+**Comentarios: Estos no son objetivos específicos, son cualidades**
+
 ### Alcance del Proyecto
 
 El sistema se desarrollará en base al lenguaje de programación Python y a su framework Django, por lo que los programadores deberán saber este lenguaje y el uso del framework anteriormente mencionado, mientras que el resto del equipo deberán tener nociones básicas de programación.
@@ -17,6 +19,8 @@ El funcionamiento de la aplicación web se limitará a la recepción de imágene
 Adicionalmente, el sistema tendrá un nivel de seguridad tal que, si un usuario no se encuentra registrado y/o con permisos, no podrá ingresar a la aplicación.
 
 Por último, se recalca que el desarrollo que realizará este equipo corresponde al modulo que contiene la interfaz gráfica del sistema, el procesamiento de la información y la muestra al usuario. 
+
+**Comentarios: Aqui faltan detalles que conversamos en la reunion de la semana pasada**
 
 ### Actividades de producción
 
