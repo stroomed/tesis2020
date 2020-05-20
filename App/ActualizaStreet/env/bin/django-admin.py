@@ -1,4 +1,4 @@
-#!/home/fabricio/tesis2020/ActualizaStreet/env/bin/python3
+#!/home/fabricio/tesis2020/App/ActualizaStreet/env/bin/python3.8
 from django.core import management
 
 if __name__ == "__main__":
