@@ -2,7 +2,10 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
 from ActualizaStreet.actualiza.serializers import UserSerializer, GroupSerializer
-
+from rest_framework.renderers import TemplateHTMLRenderer
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from django.shortcuts import render
 
 # Create your views here.
 class UserViewSet(viewsets.ModelViewSet):
@@ -17,3 +20,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+def administrator(request):
+    return render(request, 'admin_index.html')
+    
