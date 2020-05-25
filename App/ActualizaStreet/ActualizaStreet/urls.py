@@ -26,7 +26,9 @@ router.register(r'groups', views.GroupViewSet)
 
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', views.login, name='login'),
     path('api-auth', include('rest_framework.urls', namespace='rest_framework')),
-    path('actualiza/', views.administrator),
+    path('actualiza/', views.administrator, name = 'administrator'),
+    path('mapa/', views.mapa, name = 'map'),
+    path('historial/', views.historial, name = 'historial'),
 ]

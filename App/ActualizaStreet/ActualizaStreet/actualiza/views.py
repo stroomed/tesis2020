@@ -20,6 +20,14 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+def login(request):
+    return render(request, 'login.html')
+
 def administrator(request):
     return render(request, 'admin_index.html')
-    
+
+def mapa(request):
+    return render(request, 'mapa.html')
+
+def historial(request):
+    return render(request, 'historial.html')
