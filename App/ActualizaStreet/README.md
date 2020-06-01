@@ -4,6 +4,4 @@ en la carpeta de la aplicacion
 
 $cd tesis2020/App/ActualizaStreet
 
-$source env/bin/activate
-
 $python3 manage.py runserver
