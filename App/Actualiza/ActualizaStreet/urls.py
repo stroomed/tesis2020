@@ -15,17 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api.api import userAPI
+from api.api import UserAPI
 from api import api
-from django.shortcuts import render
-
-
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("administrator/", api.administrator, name="administrator"),
-    path("historial/", api.historial, name="historial"),
-    path("", api.login, name="login"),
-    path("api/1.0/create_user/", userAPI.as_view(), name="api_create_user"),
+    path('', api.login, name = 'login'),
+    path('base/',api.base, name = 'base'),
+    path('historial/',api.historial, name= 'historial'),
+    path('api/1.0/create_user', UserAPI.as_view(), name = 'api_create_user'),
+
 ]

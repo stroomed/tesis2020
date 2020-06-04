@@ -4,21 +4,20 @@ from rest_framework.views import APIView
 from rest_framework import status
 from django.shortcuts import render
 
-
-class userAPI(APIView):
+class UserAPI(APIView):
     def post(self, request):
-        serializer = UserSerializer(data = request.data)
+        serializer = UserSerializer( data = request.data )
         if serializer.is_valid():
             user = serializer.save()
             return Response(serializer.data, status = status.HTTP_201_CREATED)
         else:
             return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 
-def administrator(request):
-    return render(request,'templates/index.html')
-
-def historial(request):
-    return render(request, 'templates/historial.html')
+def base(request):
+    return render(request, 'templates/index.html')
 
 def login(request):
     return render(request, 'templates/login.html')
+
+def historial(request):
+    return render(request, 'templates/historial.html')

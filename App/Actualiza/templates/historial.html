@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -54,7 +55,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="{% url 'administrator' %}" class="brand-link">
+    <a href="{% url 'base' %}" class="brand-link">
       <img src="{% static 'dist/img/AdminLTELogo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">ActualizaStreet</span>
@@ -106,8 +107,28 @@
 
   <center>
     <h1>
-      Esta es la vista base!
+      Esta es la vista de Historial!
     </h1>
+    <table class="tbl">
+      <tr>
+        <th>ID</th>
+        <th>Experimento</th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>ja</td>
+        <td>!</td>
+        <td>kasdkasdka</td>
+      </tr>
+    </table>
+
+
   </center>
            
   <!-- /.content-wrapper -->
@@ -128,9 +149,9 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="{% static 'plugins/jquery-ui/jquery-ui.min.js' %}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
@@ -147,7 +168,7 @@
 <!-- jQuery Knob Chart -->
 <script src="{% static 'plugins/jquery-knob/jquery.knob.min.js' %}"></script>
 <!-- daterangepicker -->
-<script src="{% static 'plugins/moment/moment.min.js' %}"></script>
+<script src="{% static 'plugins/moment/moment.min.js"></script>
 <script src="{% static 'plugins/daterangepicker/daterangepicker.js' %}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{% static 'plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js' %}"></script>
