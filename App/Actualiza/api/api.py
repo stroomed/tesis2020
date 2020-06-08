@@ -21,3 +21,6 @@ def login(request):
 
 def historial(request):
     return render(request, 'templates/historial.html')
+    
+def UserRegister(request):
+    return render(request, 'templates/register.html')
