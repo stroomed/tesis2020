@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
+#from django.contrib.auth.models import Experiment, Signals, History
 
 class UserSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
@@ -26,9 +27,42 @@ class UserSerializer(serializers.Serializer):
         else:
             return data
 
-#class Experiment():
-
-#class Singals():
-    
-#class History():
-
+#class GetExperiment(serializers.Serializer):
+#    id = serializers.ReadOnlyField()
+#    fecha = serializers.CharField()
+#
+#    def createE(self, validate_data):
+#        instanceE = Experiment()
+#        instanceE.fecha = validate_data.get('fecha')
+#        instanceE.save()
+#        return instanceE
+#    
+#class Singals(serializers.Serilizer):
+#    id = serializers.ReadOnlyField()
+#    experimento = ¿?
+#    ubicacion = serializers.CharField()
+#    tipo_señal = serializers.CharField()
+#    señal_estado = serializers.CharField()
+#    hora = serializers.CharField()
+#
+#    def createS(self, validate_data):
+#        instanceS = Signals()
+#        instanceS.experimento = validate_data.get('experimento?') 
+#        instanceS.ubicacion = validate_data.get('ubicacion') 
+#        instanceS.tipo_señal = validate_data.get('tipo_señal') 
+#        instanceS.señal_estado = validate_data.get('señal_estado') 
+#        instanceS.hora = validate_data.get('hora')
+#        instanceS.save()
+#        return instanceS 
+#
+#class History(serializers.Serilizer):
+#    id = serializers.ReadOnlyField()
+#    experimento = ¿?
+#    señales_detectadas = ¿?
+#    
+#    def createH(self, validate_data):
+#       instanceH = History()
+#       instanceH.experimento = validate_data.get('experimento?')
+#       instanceH.señales_detectadas = validate_data.get('señales_detectadas?')
+#       instanceH.save()
+#       return instanceH
