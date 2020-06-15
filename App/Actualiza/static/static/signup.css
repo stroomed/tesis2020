@@ -1,0 +1,16 @@
+.crear-usuario {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.crear-usuario form select, button{
+width: 100%;
+}
+.crear-usuario form input{
+ border-radius: 3px; 
+ border:solid 0.5px black;  
+}
