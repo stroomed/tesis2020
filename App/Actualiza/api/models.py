@@ -1,14 +1,20 @@
 from django.db import models
-#from mongoengine import *
-#connect('default')
+from djangotoolbox.fields import ListField, EmbeddedModelField
 #Create your models here.
-# class Experimento(EmbeddedDocument):
-#     fecha = DateTimeField()
-# class Señales(EmbeddedDocument):
-#     experimento = ListField(EmbeddedDocumentField(Experimento))
-#     ubicacion = StringField(max_length=100)
-#     tipo_señal = StringField(max_length=100)
-#     estado_señal = StringField(max_length=200)
-#     hora = DateTimeField()
-# class Historial(Document):
-#     señales = ListField(EmbeddedDocumentField(Señales))
+
+class video(models.Model):
+    ubicacion = models.CharField(max_length=200)
+    hora = models.datetimeField()
+    señal = models.CharField(max_length=50)
+    estado = models.CharField(max_length=50)
+
+class imagen(models.Model):
+    ubicacion = models.CharField(max_length=200)
+    hora = models.datetimeField()
+    señal = models.CharField(max_length=50)
+    estado = models.CharField(max_length=50)
+
+class experimento(models.Model):
+    nombre = models.CharField(max_length=100)
+    fecha = models.DateField()
+    solicitud = ListField(EmbeddedModelField('video','imagen'))

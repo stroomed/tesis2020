@@ -1,6 +1,6 @@
 from rest_framework.response import Response
 from .serializers import UserSerializer
-from .serializers import PostForm
+#from .serializers import PostForm
 from rest_framework.views import APIView
 from rest_framework import status
 from django.shortcuts import render
@@ -24,15 +24,15 @@ def login(request):
 def historial(request):
     return render(request, 'templates/historial.html')
     
-def UserRegister(request):
-    if request.method == "POST":
-        form = PostForm(request.POST)
-        if form.is_valid():
-            post = form.save(commit=False)
-            post.published_date = timezone.now()
-            post.save()
-            return redirect('post_detail',pk=post.pk)
-    else:
-        form = PostForm()
-    return render(request, 'templates/register.html',{'form':form})
+# def UserRegister(request):
+#     if request.method == "POST":
+#         form = PostForm(request.POST)
+#         if form.is_valid():
+#             post = form.save(commit=False)
+#             post.published_date = timezone.now()
+#             post.save()
+#             return redirect('post_detail',pk=post.pk)
+#     else:
+#         form = PostForm()
+#     return render(request, 'templates/register.html',{'form':form})
 

@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'api.apps.ApiConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -37,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'api',
 ]
 
 MIDDLEWARE = [
@@ -76,16 +76,19 @@ WSGI_APPLICATION = 'ActualizaStreet.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+        'ENGINE': 'djongo',
+        'NAME': 'actualiza',
+        'HOST': 'mongodb+srv://dbmongo:<n1a2x3o4>@proyecto-khfkc.gcp.mongodb.net/<actualiza>?retryWrites=true&w=majority',
+        'USER': 'mongodb',
+        'PASSWORD': 'n1a2x3o4',
+    },
+    # 'users':{
+    #    'NAME': 'usuarios',
+    #    'ENGINE': 'django.db.backends.mysql',
+    #    'USER': 'root',
+    #    'PASSWORD': 'password',
+    # }
 }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': '',
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

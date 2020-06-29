@@ -1,12 +1,13 @@
 from rest_framework import serializers
 from django import forms
 from django.contrib.auth.models import User
+#from api.models import Users, Roles
 #from django.contrib.auth.models import Experiment, Signals, History
 
-class PostForm(forms.ModelForm):
-    class Meta:
-        model = User
-        fields = {'first_name','last_name','username','email','password'}
+# class PostForm(forms.ModelForm):
+#     class Meta:
+#         model = usuarios
+#         fields = {'nUsuario','aUsuario','eUsuario','tUsuario','rUsuario'}
 
 class UserSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
