@@ -1,9 +1,13 @@
 from rest_framework.response import Response
-from .serializers import UserSerializer
+from .serializers import UserSerializer, ExperimentoSerializer
 #from .serializers import PostForm
 from rest_framework.views import APIView
 from rest_framework import status
 from django.shortcuts import render
+from rest_framework.decorators import api_view
+
+from .models import experimento
+
 
 class UserAPI(APIView):
     def post(self, request):
@@ -23,16 +27,26 @@ def login(request):
 
 def historial(request):
     return render(request, 'templates/historial.html')
-    
-# def UserRegister(request):
-#     if request.method == "POST":
-#         form = PostForm(request.POST)
-#         if form.is_valid():
-#             post = form.save(commit=False)
-#             post.published_date = timezone.now()
-#             post.save()
-#             return redirect('post_detail',pk=post.pk)
-#     else:
-#         form = PostForm()
-#     return render(request, 'templates/register.html',{'form':form})
 
+@api_view(['GET'])
+def apiOverView(request):
+    api_urls = {
+        'Listas':'/ex-list/',
+        'Crear':'/ex-create/',
+    }
+    return Response(api_urls)
+
+@api_view(['GET'])
+def exList(request):
+    ex = experimento.objects.all()
+    serializer = ExperimentoSerializer(ex, many=True)
+    return Response(serializer.data)
+
+@api_view(['POST'])
+def exCreate(request):
+    serializer = ExperimentoSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data, status = status.HTTP_201_CREATED)
+    else:
+        return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)

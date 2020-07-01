@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from django import forms
 from django.contrib.auth.models import User
-#from api.models import Users, Roles
+from .models import experimento
 #from django.contrib.auth.models import Experiment, Signals, History
 
 # class PostForm(forms.ModelForm):
@@ -33,6 +33,13 @@ class UserSerializer(serializers.Serializer):
             raise serializers.ValidationError("Este nombre de usuario ya existe, ingrese uno nuevo")
         else:
             return data
+
+class ExperimentoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = experimento
+        fields = '__all__'
+    
+    
 
 
 #class GetExperiment(serializers.Serializer):

@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'actualiza',
-        'HOST': 'mongodb+srv://dbmongo:<n1a2x3o4>@proyecto-khfkc.gcp.mongodb.net/<actualiza>?retryWrites=true&w=majority',
-        'USER': 'mongodb',
+        'HOST': 'mongodb+srv://dbmongo:<n1a2x3o4>@proyecto-khfkc.gcp.mongodb.net/test',
+        'USER': 'dbmongo',
         'PASSWORD': 'n1a2x3o4',
     },
     # 'users':{
