@@ -106,50 +106,18 @@
   </aside>
 
   <center>
-    <h1>
-      Esta es la vista de Historial!
-    </h1>
+    <h3>Historial de experimentos</h3>
     <table border="1">
       <tr>
-        <th>ID</th>
-        <th>Experimento</th>
-        <th>Señales Detectadas</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-    </table>
-    <hr>
-    <table border="1">
-      <tr>
-        <th>ID</th>
-        <th>Experimento</th>
-        <th>Ubicación</th>
-        <th>Estado</th>
-        <th>Tipo de Señal</th>
-        <th>Hora</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-      </tr>
-    </table>
-    <hr>
-    <table border="1">
-      <tr>
-        <th>ID</th>
+        <th>Nombre</th>
         <th>Fecha</th>
       </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-      </tr>
+      {% for exp in ex %}
+     <tr>
+         <td>{{exp.nombre}}</td>
+         <td>{{exp.fecha}}</td>
+     </tr>
+      {% endfor %}
     </table>
   </center>
            

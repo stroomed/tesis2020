@@ -3,9 +3,10 @@ from .serializers import UserSerializer, ExperimentoSerializer
 #from .serializers import PostForm
 from rest_framework.views import APIView
 from rest_framework import status
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
+from django.http import HttpResponse
 from rest_framework.decorators import api_view
-
+from django.template import RequestContext
 from .models import experimento
 
 
@@ -26,7 +27,8 @@ def login(request):
     return render(request, 'templates/login.html')
 
 def historial(request):
-    return render(request, 'templates/historial.html')
+    ex = experimento.objects.all()
+    return render(request,'templates/historial.html',{'ex':ex})
 
 @api_view(['GET'])
 def apiOverView(request):
@@ -36,11 +38,6 @@ def apiOverView(request):
     }
     return Response(api_urls)
 
-@api_view(['GET'])
-def exList(request):
-    ex = experimento.objects.all()
-    serializer = ExperimentoSerializer(ex, many=True)
-    return Response(serializer.data)
 
 @api_view(['POST'])
 def exCreate(request):

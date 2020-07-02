@@ -4,7 +4,7 @@ from django import forms
 
 class video(models.Model):
     ubicacion = models.CharField(max_length=200,null=True)
-    hora = models.DateField()
+    hora = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
     class Meta:
@@ -13,7 +13,7 @@ class video(models.Model):
 
 class imagen(models.Model):
     ubicacion = models.CharField(max_length=200,null=True)
-    hora = models.DateField()
+    hora = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
     class Meta:
@@ -21,7 +21,7 @@ class imagen(models.Model):
 
 class experimento(models.Model):
     nombre = models.CharField(max_length=100,null=True)
-    fecha = models.DateField()
+    fecha = models.DateTimeField()
     videos = models.EmbeddedField(
         model_container = video
     )
@@ -29,3 +29,5 @@ class experimento(models.Model):
         model_container = imagen
     )
     objects = models.DjongoManager()
+    def __str__(self):
+        return self.nombre

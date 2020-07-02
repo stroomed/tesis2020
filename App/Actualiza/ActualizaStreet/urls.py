@@ -26,6 +26,5 @@ urlpatterns = [
     #path('registro/',api.UserRegister, name= 'registro'),
     path('api/1.0/create_user', UserAPI.as_view(), name = 'api_create_user'),
     path('api/', api.apiOverView, name='api-overview'),
-    path('api/ex-list/', api.exList, name='ex-list'),
     path('api/ex-create/', api.exCreate, name='ex-create'),
 ]
