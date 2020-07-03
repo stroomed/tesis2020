@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "title title title title" "video video image image" ". . . .";
+    width: 60%;
+  }
+  
+  .title { grid-area: title; text-align: left;}
+  
+  .video { grid-area: video; text-align: left;}
+  
+  .image { grid-area: image; text-align: left;}

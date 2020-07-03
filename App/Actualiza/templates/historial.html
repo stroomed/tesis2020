@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- Nuestro css-->
+  <link rel="stylesheet" type="text/css" href="{% static 'static/css/info.css' %}" th:href="@{/css/index.css}">
   
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -98,35 +100,32 @@
             </a>
           </li>
           </div>
-
-
-
-         
-  
   </aside>
-
   <center>
-    <h3>Historial de experimentos</h3>
-    <table border="1">
-      <tr>
-        <th>Nombre</th>
-        <th>Fecha</th>
-      </tr>
-      {% for exp in ex %}
-     <tr>
-         <td>{{exp.nombre}}</td>
-         <td>{{exp.fecha}}</td>
-     </tr>
-      {% endfor %}
-    </table>
+    <h2><b>Historial de experimentos</b></h2>
+{% for exp in ex %}
+  <div class="grid-container">
+    <div class="title">
+      <h4><b>Experimento: {{exp.nombre}}</b></h4>
+      <i><p>{{exp.fecha}}</p></i></div>
+    <div class="video"><h5><u>Videos:</u></h5>
+      <p>Ubicacion: {{exp.videos.ubicacion}}</p>
+      <p>Hora: {{exp.videos.hora}}</p>
+      <p>Señal: {{exp.videos.señal}}</p>
+      <p>Estado: {{exp.videos.estado}}</p><hr></div>
+    <div class="image"><h5><u>Imagenes:</u></h5>
+      <p>Ubicacion: {{exp.imagenes.ubicacion}}</p>
+      <p>Hora: {{exp.imagenes.hora}}</p>
+      <p>Señal: {{exp.imagenes.señal}}</p>
+      <p>Estado: {{exp.imagenes.estado}}</p><hr></div>
+  </div>
+{% endfor %}
   </center>
-           
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong><a href="http://adminlte.io"></a></strong>
    
     <div class="float-right d-none d-sm-inline-block">
-      <b></b>
+      <b>ActualizaStreet</b>
     </div>
   </footer>
 
