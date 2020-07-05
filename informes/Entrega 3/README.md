@@ -10,4 +10,4 @@
 
 #### Diagrama de despliegue de la apliación web.
 
-_Agregar diagrama_
+![image](https://user-images.githubusercontent.com/43097139/86543962-24156880-bef1-11ea-8674-d87b7439ad73.png)
