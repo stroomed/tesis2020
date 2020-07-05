@@ -6,7 +6,7 @@
 
 #### Diagrama de secuencia del usuario con la aplicación web.
 
-_Agregar diagrama_
+![image](https://user-images.githubusercontent.com/43097139/86522872-5613c580-be32-11ea-81e9-76bd212c4429.png)
 
 #### Diagrama de despliegue de la apliación web.
 
