@@ -54,7 +54,7 @@
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
+    <!-- Logo y redirección a página base -->
     <a href="{% url 'base' %}" class="brand-link">
       <img src="{% static 'dist/img/AdminLTELogo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
@@ -81,6 +81,7 @@
 
           
           <li class="nav-item">
+            <!-- Redirección a pagina historial -->
             <a href="{% url 'historial' %}" class="nav-link">
               <i class="fa fa-history"></i>
               <p>
@@ -91,6 +92,7 @@
           </li>
           <div class="fixed-bottom">
           <li class="nav-item">
+            <!-- Redirección al login -->
             <a href="{% url 'login' %}" class="nav-link">
               <i class="bi bi-box-arrow-left"></i>
               <p>
@@ -103,11 +105,12 @@
           </div> 
 </aside>
  <center>
-  <div class="content-wrapper">
+  <div class="content-wrapper" >
    <h1>Crear nuevo usuario</h1>
-    <div class="crear-usuario">   
+    <div class="crear-usuario" style="text-align: left; width: 60%"> 
+      <!-- Formulario de la creación de usuario -->  
       <form method="POST">{% csrf_token %}
-        {{ form.as_p }}
+        {{form.as_p}}
         <button type="submit">Registrar</button><br><br>
         <a href="{% url 'base'%}">Retorno a base</a>
     </div>

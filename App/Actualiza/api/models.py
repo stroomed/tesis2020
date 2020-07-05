@@ -1,10 +1,9 @@
 from djongo import models
-from django import forms
 #Create your models here.
 
 class video(models.Model):
     ubicacion = models.CharField(max_length=200,null=True)
-    hora = models.DateTimeField()
+    fecha = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
     class Meta:
@@ -13,7 +12,7 @@ class video(models.Model):
 
 class imagen(models.Model):
     ubicacion = models.CharField(max_length=200,null=True)
-    hora = models.DateTimeField()
+    fecha = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
     class Meta:

@@ -15,16 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api.api import UserAPI
 from api import api
+from .yasg import urlpatterns as doc_url
+
 
 urlpatterns = [
+    # Genera un esquema con un `request` válido a admin de django:
     path('admin/', admin.site.urls),
+    # Genera un esquema con un `request` válido al login:
     path('', api.login, name = 'login'),
+    # Genera un esquema con un `request` válido al index:
     path('base/',api.base, name = 'base'),
+    # Genera un esquema con un `request` válido al historial:
     path('historial/',api.historial, name= 'historial'),
-    #path('registro/',api.UserRegister, name= 'registro'),
-    path('api/1.0/create_user', UserAPI.as_view(), name = 'api_create_user'),
+    # Genera un esquema con un `request` válido al registro:
+    path('registro/',api.registro, name= 'registro'),
+    # Genera un esquema con un `request` válido a lista de usuarios en rest:
+    # Genera un esquema con un `request` válido al index de rest:
     path('api/', api.apiOverView, name='api-overview'),
+    # Genera un esquema con un `request` válido a creacion de experimentos en rest:
     path('api/ex-create/', api.exCreate, name='ex-create'),
 ]
+
+urlpatterns += doc_url

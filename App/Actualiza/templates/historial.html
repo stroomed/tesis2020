@@ -56,7 +56,7 @@
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
+    <!-- Logo y redirección a la pagina base -->
     <a href="{% url 'base' %}" class="brand-link">
       <img src="{% static 'dist/img/AdminLTELogo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
@@ -71,7 +71,8 @@
           <img src="{% static 'dist/img/user2-160x160.jpg' %}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="" class="d-block">Admin-1</a>
+          <!-- Redirección a la página de registro de usuarios -->
+          <a href="{%url 'registro'%}" class="d-block">Admin-1</a>
         </div>
       </div>
 
@@ -81,6 +82,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
+            <!-- Redirección a página de historial -->
             <a href="{% url 'historial' %}" class="nav-link">
               <i class="fa fa-history"></i>
               <p>
@@ -91,6 +93,7 @@
           </li>
           <div class="fixed-bottom">
           <li class="nav-item">
+            <!-- Redirección al Login -->
             <a href="{% url 'login' %}" class="nav-link">
               <i class="bi bi-box-arrow-left"></i>
               <p>
@@ -103,23 +106,36 @@
   </aside>
   <center>
     <h2><b>Historial de experimentos</b></h2>
-{% for exp in ex %}
-  <div class="grid-container">
-    <div class="title">
-      <h4><b>Experimento: {{exp.nombre}}</b></h4>
-      <i><p>{{exp.fecha}}</p></i></div>
-    <div class="video"><h5><u>Videos:</u></h5>
-      <p>Ubicacion: {{exp.videos.ubicacion}}</p>
-      <p>Hora: {{exp.videos.hora}}</p>
-      <p>Señal: {{exp.videos.señal}}</p>
-      <p>Estado: {{exp.videos.estado}}</p><hr></div>
-    <div class="image"><h5><u>Imagenes:</u></h5>
-      <p>Ubicacion: {{exp.imagenes.ubicacion}}</p>
-      <p>Hora: {{exp.imagenes.hora}}</p>
-      <p>Señal: {{exp.imagenes.señal}}</p>
-      <p>Estado: {{exp.imagenes.estado}}</p><hr></div>
-  </div>
-{% endfor %}
+    <!-- Recibe datos desde 'api.py' y recorre el objeto -->
+    {% for exp in ex %}
+      <div class="grid-container">
+        <div class="title">
+          <!-- Muestra el nombre del experimento -->
+          <h4><b>Experimento: {{exp.nombre}}</b></h4>
+          <!--Fecha del experiemtno-->
+          <i><p>{{exp.fecha}}</p></i></div>
+          <!--Sección de vídeos-->
+        <div class="video"><h5><b><u>Videos:</u></b></h5>
+          <!--Ubicacion del video-->
+          <p>Ubicacion: {{exp.videos.ubicacion}}</p>
+          <!--Hora del vídeo-->
+          <p>Hora: {{exp.videos.hora}}</p>
+          <!--Señal captada-->
+          <p>Señal: {{exp.videos.señal}}</p>
+          <!--Estado de la señal-->
+          <p>Estado: {{exp.videos.estado}}</p><hr></div>
+          <!--Sección de imagenes-->
+        <div class="image"><h5><b><u>Imagenes:</u></b></h5>
+          <!--Ubicacion de la imagen-->
+          <p>Ubicacion: {{exp.imagenes.ubicacion}}</p>
+          <!--Hora de la imagen tomada-->
+          <p>Hora: {{exp.imagenes.hora}}</p>
+          <!--Señal captada-->
+          <p>Señal: {{exp.imagenes.señal}}</p>
+          <!--Estado de la señal-->
+          <p>Estado: {{exp.imagenes.estado}}</p><hr></div>
+      </div>
+    {% endfor %}
   </center>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
@@ -157,7 +173,7 @@
 <!-- jQuery Knob Chart -->
 <script src="{% static 'plugins/jquery-knob/jquery.knob.min.js' %}"></script>
 <!-- daterangepicker -->
-<script src="{% static 'plugins/moment/moment.min.js"></script>
+<script src="{% static 'plugins/moment/moment.min.js' %}"></script>
 <script src="{% static 'plugins/daterangepicker/daterangepicker.js' %}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{% static 'plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js' %}"></script>

@@ -68,7 +68,8 @@
           <img src="{% static 'dist/img/user2-160x160.jpg' %}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="" class="d-block">Admin-1</a>
+          <!-- Redirección a página de registro de usuario -->
+          <a href="{%url 'registro'%}" class="d-block">Admin-1</a>
         </div>
       </div>
 
@@ -78,6 +79,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
+            <!-- Redirección a página del historial -->
             <a href="{% url 'historial' %}" class="nav-link">
               <i class="fa fa-history"></i>
               <p>
@@ -88,6 +90,7 @@
           </li>
           <div class="fixed-bottom">
           <li class="nav-item">
+            <!-- Redirección a página del Login -->
             <a href="{% url 'login' %}" class="nav-link">
               <i class="bi bi-box-arrow-left"></i>
               <p>
