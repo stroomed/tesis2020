@@ -111,6 +111,7 @@
       <div class="grid-container">
         <div class="title">
           <!-- Muestra el nombre del experimento -->
+          {{exp.id}}
           <h4><b>Experimento: {{exp.nombre}}</b></h4>
           <!--Fecha del experiemtno-->
           <i><p>{{exp.fecha}}</p></i></div>
@@ -119,7 +120,7 @@
           <!--Ubicacion del video-->
           <p>Ubicacion: {{exp.videos.ubicacion}}</p>
           <!--Hora del vídeo-->
-          <p>Hora: {{exp.videos.hora}}</p>
+          <p>Fecha: {{exp.videos.fecha}}</p>
           <!--Señal captada-->
           <p>Señal: {{exp.videos.señal}}</p>
           <!--Estado de la señal-->
@@ -129,13 +130,15 @@
           <!--Ubicacion de la imagen-->
           <p>Ubicacion: {{exp.imagenes.ubicacion}}</p>
           <!--Hora de la imagen tomada-->
-          <p>Hora: {{exp.imagenes.hora}}</p>
+          <p>Fecha: {{exp.imagenes.fecha}}</p>
           <!--Señal captada-->
           <p>Señal: {{exp.imagenes.señal}}</p>
           <!--Estado de la señal-->
           <p>Estado: {{exp.imagenes.estado}}</p><hr></div>
+          
       </div>
     {% endfor %}
+    
   </center>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
