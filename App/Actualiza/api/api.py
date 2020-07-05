@@ -11,11 +11,6 @@ def registro(request):
     """
     return render(request, 'templates/register.html')
 
-def base(request):
-    """
-        Renderización del template 'index.html'
-    """
-    return render(request, 'templates/index.html')
 
 def login(request):
     """

@@ -24,13 +24,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Genera un esquema con un `request` válido al login:
     path('', api.login, name = 'login'),
-    # Genera un esquema con un `request` válido al index:
-    path('base/',api.base, name = 'base'),
     # Genera un esquema con un `request` válido al historial:
     path('historial/',api.historial, name= 'historial'),
     # Genera un esquema con un `request` válido al registro:
     path('registro/',api.registro, name= 'registro'),
-    # Genera un esquema con un `request` válido a lista de usuarios en rest:
     # Genera un esquema con un `request` válido al index de rest:
     path('api/', api.apiOverView, name='api-overview'),
     # Genera un esquema con un `request` válido a creacion de experimentos en rest:
