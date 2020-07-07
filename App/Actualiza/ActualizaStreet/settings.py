@@ -77,19 +77,21 @@ WSGI_APPLICATION = 'ActualizaStreet.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
+        'NAME': 'usuarios',
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'root',
+        'PASSWORD': 'password',
+    },
+    'experimentos':{
+       'ENGINE': 'djongo',
         'NAME': 'actualiza',
         'HOST': 'mongodb+srv://dbmongo:<n1a2x3o4>@proyecto-khfkc.gcp.mongodb.net/test',
         'USER': 'dbmongo',
         'PASSWORD': 'n1a2x3o4',
-    },
-    # 'users':{
-    #    'NAME': 'usuarios',
-    #    'ENGINE': 'django.db.backends.mysql',
-    #    'USER': 'root',
-    #    'PASSWORD': 'password',
-    # }
+    }
 }
+
+DATABASE_ROUTERS = ['api.routers.apiRouter',]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
