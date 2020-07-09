@@ -109,9 +109,10 @@
    <h1>Crear nuevo usuario</h1>
     <div class="crear-usuario" style="text-align: left; width: 60%"> 
       <!-- Formulario de la creación de usuario -->  
-      <form method="POST">{% csrf_token %}
+      <form method="POST">
+        
         {{form.as_p}}
-        <button type="submit">Registrar</button><br><br>
+        <input type="submit" value="Save"><br><br>
     </div>
       </form>
   </div>  

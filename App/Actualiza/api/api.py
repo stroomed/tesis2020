@@ -4,6 +4,7 @@ from rest_framework import status
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from .models import experimento
+from django.contrib.auth.models import User
 
 def registro(request):
     """
@@ -38,9 +39,6 @@ def apiOverView(request):
     }
     return Response(api_urls)
 
-
-
-
 @api_view(['POST'])
 def exCreate(request):
     """
@@ -53,5 +51,3 @@ def exCreate(request):
         return Response("Creado exitosamente", status = status.HTTP_201_CREATED)
     else:
         return Response("Error al crear", status = status.HTTP_400_BAD_REQUEST)
-
-

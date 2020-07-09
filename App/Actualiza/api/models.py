@@ -2,7 +2,8 @@ from djongo import models
 #Create your models here.
 
 class video(models.Model):
-    ubicacion = models.CharField(max_length=200,null=True)
+    longitud = models.FloatField(null=True)
+    latitud = models.FloatField(null=True)
     fecha = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
@@ -11,7 +12,8 @@ class video(models.Model):
     
 
 class imagen(models.Model):
-    ubicacion = models.CharField(max_length=200,null=True)
+    longitud = models.FloatField(null=True)
+    latitud = models.FloatField(null=True)
     fecha = models.DateTimeField()
     señal = models.CharField(max_length=50,null=True)
     estado = models.CharField(max_length=50,null=True)
