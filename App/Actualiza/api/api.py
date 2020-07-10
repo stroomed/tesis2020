@@ -1,16 +1,23 @@
 from rest_framework.response import Response
-from .serializers import ExperimentoSerializer
+from .serializers import ExperimentoSerializer, UsuarioSerializer
 from rest_framework import status
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from .models import experimento
-from django.contrib.auth.models import User
+from users.models import Usuario
+from .forms import UsuarioForm
 
 def registro(request):
     """
         Renderización del template 'register.html'
     """
-    return render(request, 'templates/register.html')
+    form = UsuarioForm(request.POST or None)
+    if form.is_valid():
+        print('<h1>Creacion exitosa</h1>')
+        form.save()
+    
+    return render(request, 'templates/register.html', {'form':form})
+    
 
 
 def login(request):
@@ -34,8 +41,8 @@ def apiOverView(request):
         Retorna una vista con las url's de la api
     """
     api_urls = {
-        'Crear experimento':'/ex-create/',
-        'Listar Usuarios':'/u-list/',
+        'Crear experimento':'api/ex-create/',
+        'Listar Usuarios':'api/u-list/',
     }
     return Response(api_urls)
 
@@ -51,3 +58,9 @@ def exCreate(request):
         return Response("Creado exitosamente", status = status.HTTP_201_CREATED)
     else:
         return Response("Error al crear", status = status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET'])
+def uList(request):
+    usuarios = Usuario.objects.all()
+    serializer = UsuarioSerializer(usuarios, many=True)
+    return Response(serializer.data)

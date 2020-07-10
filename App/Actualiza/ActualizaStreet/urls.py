@@ -32,6 +32,8 @@ urlpatterns = [
     path('api/', api.apiOverView, name='api-overview'),
     # Genera un esquema con un `request` válido a creacion de experimentos en rest:
     path('api/ex-create/', api.exCreate, name='ex-create'),
+
+    path('api/u-list/', api.uList, name='l-list'),
 ]
 
 urlpatterns += doc_url

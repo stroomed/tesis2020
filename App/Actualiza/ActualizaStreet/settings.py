@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,6 +78,12 @@ WSGI_APPLICATION = 'ActualizaStreet.wsgi.application'
 
 DATABASES = {
     'default': {
+        'NAME': 'django',
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'root',
+        'PASSWORD': 'password',
+    },
+    'usuarios': {
         'NAME': 'usuarios',
         'ENGINE': 'django.db.backends.mysql',
         'USER': 'root',
@@ -91,7 +98,7 @@ DATABASES = {
     }
 }
 
-DATABASE_ROUTERS = ['api.routers.apiRouter',]
+DATABASE_ROUTERS = ['api.routers.apiRouter','api.routers.usersRouter',]
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
