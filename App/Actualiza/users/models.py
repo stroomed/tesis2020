@@ -10,7 +10,7 @@ from django.db import models
 
 class Roles(models.Model):
     idrol = models.AutoField(db_column='IdRol', primary_key=True)  # Field name made lowercase.
-    nrol = models.CharField(db_column='nRol', max_length=30)  # Field name made lowercase.
+    rol = models.CharField(max_length=30)
 
     class Meta:
         managed = False
@@ -19,21 +19,14 @@ class Roles(models.Model):
 
 class Usuario(models.Model):
     idusuario = models.AutoField(db_column='IdUsuario', primary_key=True)  # Field name made lowercase.
-    nusuario = models.CharField(db_column='nUsuario', max_length=50)  # Field name made lowercase.
-    ausuario = models.CharField(db_column='aUsuario', max_length=50)  # Field name made lowercase.
-    eusuario = models.CharField(db_column='eUsuario', max_length=100)  # Field name made lowercase.
-    tusuario = models.IntegerField(db_column='tUsuario')  # Field name made lowercase.
-    rusuario = models.ForeignKey(Roles, models.DO_NOTHING, db_column='rUsuario')  # Field name made lowercase.
+    nombre = models.CharField(max_length=45)
+    apellido = models.CharField(max_length=50)
+    usuario = models.CharField(max_length=50)
+    contraseña = models.CharField(max_length=45)
+    email = models.CharField(max_length=100)
+    fono = models.IntegerField()
+    rol = models.ForeignKey(Roles, models.DO_NOTHING, db_column='rol')
 
     class Meta:
         managed = False
         db_table = 'Usuario'
-
-
-class Validar(models.Model):
-    usuario = models.OneToOneField(Usuario, models.DO_NOTHING, db_column='Usuario', primary_key=True)  # Field name made lowercase.
-    contrasena = models.CharField(db_column='Contrasena', max_length=16)  # Field name made lowercase.
-
-    class Meta:
-        managed = False
-        db_table = 'Validar'

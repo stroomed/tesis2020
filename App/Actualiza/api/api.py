@@ -1,22 +1,24 @@
 from rest_framework.response import Response
 from .serializers import ExperimentoSerializer, UsuarioSerializer
 from rest_framework import status
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from rest_framework.decorators import api_view
 from .models import experimento
 from users.models import Usuario
 from .forms import UsuarioForm
+from django.contrib import messages
+from django.contrib.sessions.models import Session
 
 def registro(request):
     """
         Renderización del template 'register.html'
     """
-    form = UsuarioForm(request.POST or None)
-    if form.is_valid():
-        print('<h1>Creacion exitosa</h1>')
-        form.save()
-    
-    return render(request, 'templates/register.html', {'form':form})
+    if request.session.has_key('is_logged'):
+        form = UsuarioForm(request.POST or None)
+        if form.is_valid():
+            form.save()
+        return render(request, 'templates/register.html', {'form':form})
+    return redirect('login')
     
 
 
@@ -24,7 +26,21 @@ def login(request):
     """
         Renderización del template 'login.html'
     """
+    if request.POST:
+        usuario = request.POST['user']
+        contraseña = request.POST['pass']
+        count = Usuario.objects.filter(usuario=usuario, contraseña=contraseña).count()
+        if count > 0:
+            request.session['is_logged'] = True
+            return redirect('historial')
+        else:
+            messages.error(request, 'Usuario o contraseña incorrectos')
+            return redirect('login')
     return render(request, 'templates/login.html')
+
+def LogOut(request):
+    del request.session['is_logged']
+    return redirect('login')
 
 def historial(request):
     """
@@ -32,8 +48,11 @@ def historial(request):
         y un contexto de los objetos dentro de la tabla 'api_experimento'
         en la base de datos mongo
     """
-    ex = experimento.objects.all()
-    return render(request,'templates/historial.html',{'ex':ex})
+    if request.session.has_key('is_logged'):
+        ex = experimento.objects.all()
+        return render(request, 'templates/historial.html',{'ex':ex})
+    
+    return redirect('login')
 
 @api_view(['GET'])
 def apiOverView(request):
@@ -64,3 +83,6 @@ def uList(request):
     usuarios = Usuario.objects.all()
     serializer = UsuarioSerializer(usuarios, many=True)
     return Response(serializer.data)
+
+
+

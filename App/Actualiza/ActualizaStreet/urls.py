@@ -34,6 +34,8 @@ urlpatterns = [
     path('api/ex-create/', api.exCreate, name='ex-create'),
 
     path('api/u-list/', api.uList, name='l-list'),
+    path('/', api.LogOut, name='LogOut'),
+
 ]
 
 urlpatterns += doc_url
