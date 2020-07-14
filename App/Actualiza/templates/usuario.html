@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
-</head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
@@ -52,7 +51,7 @@
           <img src="{% static 'dist/img/user2-160x160.jpg' %}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">{{request.session.is_logged_admin}}</a>
+          <a href="#" class="d-block">{{request.session.is_logged_user}}</a>
         </div>
       </div>
 
@@ -89,14 +88,10 @@
 </aside>
  <center>
   <div class="content-wrapper" >
-   <h1>Crear nuevo usuario</h1>
+   <h1>Datos:</h1>
     <div class="crear-usuario" style="text-align: left; width: 60%"> 
       <!-- Formulario de la creación de usuario -->  
-      <form method="POST">{% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Guardar"><br><br>
-    </div>
-      </form>
+      <h1>Datos del usuario</h1>
   </div>  
  </center>
 

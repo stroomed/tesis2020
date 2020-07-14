@@ -13,14 +13,16 @@ def registro(request):
     """
         Renderización del template 'register.html'
     """
-    if request.session.has_key('is_logged'):
+    if request.session.has_key('is_logged_admin'):
         form = UsuarioForm(request.POST or None)
         if form.is_valid():
             form.save()
         return render(request, 'templates/register.html', {'form':form})
     return redirect('login')
     
-
+def usuario(request):
+    if request.session.has_key('is_logged_user'):
+        return render(request,'templates/usuario.html')
 
 def login(request):
     """
@@ -29,9 +31,14 @@ def login(request):
     if request.POST:
         usuario = request.POST['user']
         contraseña = request.POST['pass']
-        count = Usuario.objects.filter(usuario=usuario, contraseña=contraseña).count()
-        if count > 0:
-            request.session['is_logged'] = True
+        count1 = Usuario.objects.filter(usuario=usuario, contraseña=contraseña, rol=1).count()
+        count2 = Usuario.objects.filter(usuario=usuario, contraseña=contraseña, rol=2).count()
+        u = Usuario.objects.get(usuario=usuario)
+        if count1 > 0:
+            request.session['is_logged_admin'] = u.nombre
+            return redirect('historial')
+        elif count2 > 0:
+            request.session['is_logged_user'] = u.nombre
             return redirect('historial')
         else:
             messages.error(request, 'Usuario o contraseña incorrectos')
@@ -39,8 +46,12 @@ def login(request):
     return render(request, 'templates/login.html')
 
 def LogOut(request):
-    del request.session['is_logged']
-    return redirect('login')
+    if  request.session.has_key('is_logged_admin'):
+        del request.session['is_logged_admin']
+        return redirect('login')
+    elif request.session.has_key('is_logged_user'):
+        del request.session['is_logged_user']
+        return redirect('login')
 
 def historial(request):
     """
@@ -48,7 +59,7 @@ def historial(request):
         y un contexto de los objetos dentro de la tabla 'api_experimento'
         en la base de datos mongo
     """
-    if request.session.has_key('is_logged'):
+    if request.session.has_key('is_logged_admin') or request.session.has_key('is_logged_user'):
         ex = experimento.objects.all()
         return render(request, 'templates/historial.html',{'ex':ex})
     

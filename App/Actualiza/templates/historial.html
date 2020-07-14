@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
   <!-- Nuestro css-->
   <link rel="stylesheet" type="text/css" href="{% static 'static/css/info.css' %}" th:href="@{/css/index.css}">
-  
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -56,7 +55,12 @@
         </div>
         <div class="info">
           <!-- Redirección a la página de registro de usuarios -->
-          <a href="{%url 'registro'%}" class="d-block">Admin</a>
+          {% if request.session.is_logged_admin %}
+            <a href="{%url 'registro'%}" class="d-block">{{request.session.is_logged_admin}}</a>
+          {% else %}
+            <a href="{%url 'usuario'%}" class="d-block">{{request.session.is_logged_user}}</a>
+          {% endif %}
+
         </div>
       </div>
 
