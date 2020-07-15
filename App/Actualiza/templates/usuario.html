@@ -47,9 +47,6 @@
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="{% static 'dist/img/user2-160x160.jpg' %}" class="img-circle elevation-2" alt="User Image">
-        </div>
         <div class="info">
           <a href="#" class="d-block">{{request.session.is_logged_user}}</a>
         </div>
@@ -88,10 +85,16 @@
 </aside>
  <center>
   <div class="content-wrapper" >
-   <h1>Datos:</h1>
     <div class="crear-usuario" style="text-align: left; width: 60%"> 
       <!-- Formulario de la creación de usuario -->  
       <h1>Datos del usuario</h1>
+      <p>
+       <b>Nombre:</b>  {{request.session.is_logged_user}} {{request.session.U_ape}} <br>
+       <b>Usuario:</b>  {{request.session.U_usu}} <br>
+       <b>Contraseña:</b>  {{request.session.U_pass}} <br>
+       <b>Email:</b>  {{request.session.U_mail}} <br> 
+       <b>Teléfono:</b>  {{request.session.U_fono}}
+      </p>
   </div>  
  </center>
 

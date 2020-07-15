@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
-</head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
@@ -48,9 +47,8 @@
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        
         <div class="info">
-          <a href="#" class="d-block">{{request.session.is_logged_admin}} {{request.session.U_ape}}</a>
+          <a href="{% url 'registro' %}" class="d-block">{{request.session.is_logged_admin}} {{request.session.U_ape}}</a>
         </div>
       </div>
 
@@ -85,88 +83,45 @@
       </nav>
 </aside>
  <center>
-  <div class="content-wrapper" >
-    
     <div class="crear-usuario" style="text-align: left; width: 60%"> 
-      <h3>Datos del usuario</h3>
-      <p>
-       <b>Nombre:</b>  {{request.session.is_logged_user}} {{request.session.U_ape}} <br>
-       <b>Usuario:</b>  {{request.session.U_usu}} <br>
-       <b>Contraseña:</b>  {{request.session.U_pass}} <br>
-       <b>Email:</b>  {{request.session.U_mail}} <br> 
-       <b>Teléfono:</b>  {{request.session.U_fono}}
-      </p>
-    </div>
-   <hr>
-    <div class="crear-usuario" style="text-align: left; width: 60%"> 
-      <h3>Nuevo usuario</h3>
+      <h3>Editar usuario</h3>
       <!-- Formulario de la creación de usuario -->  
-      <form method="POST">{% csrf_token %}
+      <form method="POST" action="/update/{{user.idusuario}}">{% csrf_token %}
         <table>
           <tr>
             <th>Nombre:</th>
-            <td>{{ form.nombre }}</td>
+            <td><input type="text" name="nombre" id="id_nombre" required maxlength="45" value="{{user.nombre}}"></td>
           </tr>
           <tr>
             <th>Apellido:</th>
-            <td>{{ form.apellido }}</td>
+            <td><input type="text" name="apellido" id="id_apellido" required maxlength="50" value="{{user.apellido}}"></td>
           </tr>
           <tr>
             <th>Usuario:</th>
-            <td>{{ form.usuario }}</td>
+            <td><input type="text" name="usuario" id="id_usuario" required maxlength="50" value="{{user.usuario}}"></td>
           </tr>
           <tr>
             <th>Contraseña:</th>
-            <td>{{ form.contraseña }}</td>
+            <td><input type="text" name="contraseña" id="id_contraseña" required maxlength="45" value="{{user.contraseña}}"></td>
           </tr>
           <tr>
             <th>E-mail:</th>
-            <td>{{ form.email }}</td>
+            <td><input type="text" name="email" id="id_email" required maxlength="100" value="{{user.email}}"></td>
           </tr>
           <tr>
             <th>Telefono:</th>
-            <td>{{ form.fono }}</td>
+            <td><input type="text" name="fono" id="id_fono" value="{{user.fono}}"></td>
           </tr>
           <tr>
             <th>Rol:</th>
-            <td>{{form.rol}}</td>
+            <td><select name="rol" id="id_rol">
+              <option value="2">{{user.rol}}</option>
+            </select></td>
           </tr>
         </table>
-        <input type="submit" value="Guardar">
+        <input type="submit" value="Actualizar"><br><br>
     
-      </form></div><hr>
-      <div class="crear-usuario" style="text-align: left; width: 60%"> 
-          <h3>Usuarios creados:</h3>
-        <table border="3" >
-          <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Ususario</th>
-            <th>Contraseña</th>
-            <th>Email</th>
-            <th>Telefono</th>
-            <th>Acciones</th>
-          </tr>
-          {% for use in list %}
-          <tr>
-              <td>{{use.nombre}}</td>
-              <td>{{use.apellido}}</td>
-              <td>{{use.usuario}}</td>
-              <td>{{use.contraseña}}</td>
-              <td>{{use.email}}</td>
-              <td>{{use.fono}}</td>
-              <td>
-                <a href="/edit/{{use.idusuario}}">Editar</a>
-                <a href="/del/{{use.idusuario}}">Eliminar</a>
-              </td>
-          </tr>
-          {% endfor %}
-        </table>
-      </div>
-      
-
-      
-  </div>  
+      </form></div>  
  </center>
 
 

@@ -14,12 +14,33 @@ def registro(request):
         Renderización del template 'register.html'
     """
     if request.session.has_key('is_logged_admin'):
+        u_list = Usuario.objects.all()
         form = UsuarioForm(request.POST or None)
         if form.is_valid():
             form.save()
-        return render(request, 'templates/register.html', {'form':form})
+            return redirect('registro')
+        return render(request, 'templates/register.html', {'form':form, 'list':u_list})
     return redirect('login')
-    
+
+def edit(request, id):
+    if request.session.has_key('is_logged_admin'):
+        user = Usuario.objects.get(idusuario=id)
+        return render(request, 'templates/uEdit.html',{'user':user})
+    return redirect('login')
+
+def update(request, id):
+    user = Usuario.objects.get(idusuario=id)
+    form = UsuarioForm(request.POST, instance=user)
+    if form.is_valid():
+        form.save()
+        return redirect('registro')
+    return render(request, 'templates/uEdit.html', {'user':user})
+
+def destroy(request, id):
+    user = Usuario.objects.get(idusuario=id)
+    user.delete()
+    return redirect('registro')
+
 def usuario(request):
     if request.session.has_key('is_logged_user'):
         return render(request,'templates/usuario.html')
@@ -36,9 +57,19 @@ def login(request):
         u = Usuario.objects.get(usuario=usuario)
         if count1 > 0:
             request.session['is_logged_admin'] = u.nombre
+            request.session['U_ape'] = u.apellido
+            request.session['U_usu'] = u.usuario
+            request.session['U_pass'] = u.contraseña
+            request.session['U_mail'] = u.email
+            request.session['U_fono'] = u.fono
             return redirect('historial')
         elif count2 > 0:
             request.session['is_logged_user'] = u.nombre
+            request.session['U_ape'] = u.apellido
+            request.session['U_usu'] = u.usuario
+            request.session['U_pass'] = u.contraseña
+            request.session['U_mail'] = u.email
+            request.session['U_fono'] = u.fono
             return redirect('historial')
         else:
             messages.error(request, 'Usuario o contraseña incorrectos')
@@ -48,9 +79,19 @@ def login(request):
 def LogOut(request):
     if  request.session.has_key('is_logged_admin'):
         del request.session['is_logged_admin']
+        del request.session['U_ape']
+        del request.session['U_usu']
+        del request.session['U_pass']
+        del request.session['U_mail']
+        del request.session['U_fono']
         return redirect('login')
     elif request.session.has_key('is_logged_user'):
         del request.session['is_logged_user']
+        del request.session['U_ape']
+        del request.session['U_usu']
+        del request.session['U_pass']
+        del request.session['U_mail']
+        del request.session['U_fono']
         return redirect('login')
 
 def historial(request):

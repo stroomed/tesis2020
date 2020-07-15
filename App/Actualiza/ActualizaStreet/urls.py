@@ -29,6 +29,9 @@ urlpatterns = [
     # Genera un esquema con un `request` válido al registro:
     path('registro/',api.registro, name= 'registro'),
     path('informacion/',api.usuario, name= 'usuario'),
+    path('edit/<int:id>',api.edit, name= 'Eusuario'),
+    path('update/<int:id>',api.update, name= 'Uusuario'),
+    path('del/<int:id>',api.destroy, name= 'Dusuario'),
     # Genera un esquema con un `request` válido al index de rest:
     path('api/', api.apiOverView, name='api-overview'),
     # Genera un esquema con un `request` válido a creacion de experimentos en rest:
