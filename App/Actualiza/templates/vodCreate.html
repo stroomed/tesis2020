@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
+  <!-- Nuestro css-->
+  <link rel="stylesheet" type="text/css" href="{% static 'static/css/info.css' %}" th:href="@{/css/index.css}">
+</head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
@@ -36,7 +39,7 @@
 
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Logo y redirección a página base -->
+    <!-- Logo y redirección a la pagina base -->
     <a href="{% url 'historial' %}" class="brand-link">
       <img src="{% static 'dist/img/AdminLTELogo.png' %}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
@@ -48,7 +51,13 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="info">
-          <a href="{% url 'registro' %}" class="d-block">{{request.session.is_logged_admin}} {{request.session.U_ape}}</a>
+          <!-- Redirección a la página de registro de usuarios -->
+          {% if request.session.is_logged_admin %}
+            <a href="{%url 'registro'%}" class="d-block">{{request.session.is_logged_admin}} {{request.session.U_ape}}</a>
+          {% else %}
+            <a href="{%url 'usuario'%}" class="d-block">{{request.session.is_logged_user}} {{request.session.U_ape}}</a>
+          {% endif %}
+
         </div>
       </div>
 
@@ -57,10 +66,8 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-
-          
           <li class="nav-item">
-            <!-- Redirección a pagina historial -->
+            <!-- Redirección a página de historial -->
             <a href="{% url 'historial' %}" class="nav-link">
               <i class="fa fa-history"></i>
               <p>
@@ -81,68 +88,28 @@
           </li>
         </ul>
       </nav>
-</aside>
- <center>
-    <div class="crear-usuario" style="text-align: left; width: 60%"> 
-      <h3>Editar usuario</h3>
-      <!-- Formulario de la creación de usuario -->  
-      <form method="POST" action="/update/{{user.idusuario}}">{% csrf_token %}
-        <table>
-          <tr>
-            <th>Nombre:</th>
-            <td><input type="text" name="nombre" id="id_nombre" required maxlength="45" value="{{user.nombre}}"></td>
-          </tr>
-          <tr>
-            <th>Apellido:</th>
-            <td><input type="text" name="apellido" id="id_apellido" required maxlength="50" value="{{user.apellido}}"></td>
-          </tr>
-          <tr>
-            <th>Usuario:</th>
-            <td><input type="text" name="usuario" id="id_usuario" required maxlength="50" value="{{user.usuario}}"></td>
-          </tr>
-          <tr>
-            <th>Contraseña:</th>
-            <td><input type="text" name="contraseña" id="id_contraseña" required maxlength="45" value="{{user.contraseña}}"></td>
-          </tr>
-          <tr>
-            <th>E-mail:</th>
-            <td><input type="text" name="email" id="id_email" required maxlength="100" value="{{user.email}}"></td>
-          </tr>
-          <tr>
-            <th>Telefono:</th>
-            <td><input type="text" name="fono" id="id_fono" value="{{user.fono}}"></td>
-          </tr>
-          <tr>
-            <th>Rol:</th>
-            <td><select name="rol" id="id_rol">
-              <option value="2">{{user.rol}}</option><!--arreglar :C-->
-            </select></td>
-          </tr>
-        </table>
-        <input type="submit" value="Actualizar"><br><br>
+  </aside>
+  <center>
+    <h2><b>Crear Video</b></h2>
+    <form method="POST">{% csrf_token %}
+     {{form.as_p}}
+      <input type="submit" value="ingresar">
+    </form>
     
-      </form></div>  
- </center>
-
-
-
+  </center>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong><a href="http://adminlte.io"></a></strong>
    
     <div class="float-right d-none d-sm-inline-block">
-      <b></b>
+      <b>ActualizaStreet</b>
     </div>
   </footer>
-
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
   <!-- /.control-sidebar -->
 </div>
-<!-- ./wrapper -->
-
 
 </body>
 </html>

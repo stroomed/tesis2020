@@ -92,34 +92,25 @@
   <center>
     <h2><b>Historial de experimentos</b></h2>
     <!-- Recibe datos desde 'api.py' y recorre el objeto -->
+    <label for=""><a href="{%url 'crear'%}">Crear Experimento</a></label>
     {% for exp in ex %}
       <div class="grid-container">
         <div class="title">
           <!-- Muestra el nombre del experimento -->
-          {{exp.id}}
+          {{exp.experimento_id  }}
           <h4><b>Experimento: {{exp.nombre}}</b></h4>
           <!--Fecha del experiemtno-->
           <i><p>{{exp.fecha}}</p></i></div>
           <!--Sección de vídeos-->
         <div class="video"><h5><b><u>Videos:</u></b></h5>
           <!--Ubicacion del video-->
-          <p>Ubicacion: {{exp.videos.longitud}}, {{exp.videos.latitud}}</p>
-          <!--Hora del vídeo-->
-          <p>Fecha: {{exp.videos.fecha}}</p>
-          <!--Señal captada-->
-          <p>Señal: {{exp.videos.señal}}</p>
-          <!--Estado de la señal-->
-          <p>Estado: {{exp.videos.estado}}</p><hr></div>
-          <!--Sección de imagenes-->
-        <div class="image"><h5><b><u>Imagenes:</u></b></h5>
-          <!--Ubicacion de la imagen-->
-          <p>Ubicacion: {{exp.imagenes.longitud}}, {{exp.imagenes.latitud}}</p>
-          <!--Hora de la imagen tomada-->
-          <p>Fecha: {{exp.imagenes.fecha}}</p>
-          <!--Señal captada-->
-          <p>Señal: {{exp.imagenes.señal}}</p>
-          <!--Estado de la señal-->
-          <p>Estado: {{exp.imagenes.estado}}</p><hr></div>
+          <p>{{exp.videos}}</p>
+          <p><a href="{%url 'vodCreate'%}">Ingresar Video</a></p>
+          <br></div>
+          <div class="image"><h5><b><u>Imagenes:</u></b></h5>
+          <p>{{exp.imagenes}}</p>
+          <p><a href="{%url 'imgCreate'%}">Ingresar imagen</a></p><br>
+          </div>
           
       </div>
     {% endfor %}

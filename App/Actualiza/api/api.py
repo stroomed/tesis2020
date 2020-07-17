@@ -1,11 +1,11 @@
 from rest_framework.response import Response
-from .serializers import ExperimentoSerializer, UsuarioSerializer
+from .serializers import ExperimentoSerializer, UsuarioSerializer, VideoSerializer, ImagenSerializer
 from rest_framework import status
 from django.shortcuts import render, redirect
 from rest_framework.decorators import api_view
-from .models import experimento
+from .models import experimento, imagen, video
 from users.models import Usuario
-from .forms import UsuarioForm
+from .forms import UsuarioForm, ExperimentoForm, ImagenForm, VideoForm
 from django.contrib import messages
 from django.contrib.sessions.models import Session
 
@@ -94,6 +94,33 @@ def LogOut(request):
         del request.session['U_fono']
         return redirect('login')
 
+def crear(request):
+    if request.session.has_key('is_logged_admin') or request.session.has_key('is_logged_user'):
+        form = ExperimentoForm(request.POST or None)
+        if form.is_valid():
+            form.save()
+            return redirect('historial')
+        return render(request, 'templates/ingreExp.html',{'form':form})
+    return redirect('login')
+ 
+def imgCrear(request):
+    if request.session.has_key('is_logged_admin') or request.session.has_key('is_logged_user'):
+        form = ImagenForm(request.POST or None)
+        if form.is_valid():
+            form.save()
+            return redirect('historial')
+        return render(request, 'templates/imgCreate.html', {'form':form})
+    return redirect('login')
+
+def vodCrear(request):
+    if request.session.has_key('is_logged_admin') or request.session.has_key('is_logged_user'):
+        form = VideoForm(request.POST or None)
+        if form.is_valid():
+            form.save()
+            return redirect('historial')
+        return render(request, 'templates/vodCreate.html', {'form':form})
+    return redirect('login')
+
 def historial(request):
     """
         Renderización del template 'historial.html'
@@ -102,7 +129,9 @@ def historial(request):
     """
     if request.session.has_key('is_logged_admin') or request.session.has_key('is_logged_user'):
         ex = experimento.objects.all()
-        return render(request, 'templates/historial.html',{'ex':ex})
+        img = imagen.objects.all()
+        vod = video.objects.all()
+        return render(request, 'templates/historial.html',{'ex':ex,'img':img,'vod':vod})
     
     return redirect('login')
 
@@ -113,7 +142,13 @@ def apiOverView(request):
     """
     api_urls = {
         'Crear experimento':'api/ex-create/',
+        'Lista de Experimentos':'api/ex-list/',
+        'Crear Imagen':'api/img-create/',
+        'Lista de Imagenes':'api/img-list/',
         'Listar Usuarios':'api/u-list/',
+        'Crear Videos':'api/vod-create/',
+        'Listar Videos':'api/vod-list/',
+        
     }
     return Response(api_urls)
 
@@ -130,11 +165,44 @@ def exCreate(request):
     else:
         return Response("Error al crear", status = status.HTTP_400_BAD_REQUEST)
 
+@api_view(['POST'])
+def imgCreate(request):
+    serializer = ImagenSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response("Creado exitosamente", status = status.HTTP_201_CREATED)
+    else:
+        return Response("Error al crear", status = status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET'])
+def imgList(request):
+    img = imagen.objects.all()
+    serializer = ImagenSerializer(img, many=True)
+    return Response(serializer.data)
+
+@api_view(['POST'])
+def vodCreate(request):
+    serializer = VideoSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response("Creado exitosamente", status = status.HTTP_201_CREATED)
+    else:
+        return Response("Error al crear", status = status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET'])
+def vodList(request):
+    vod = video.objects.all()
+    serializer = VideoSerializer(vod, many=True)
+    return Response(serializer.data)
+
 @api_view(['GET'])
 def uList(request):
     usuarios = Usuario.objects.all()
     serializer = UsuarioSerializer(usuarios, many=True)
     return Response(serializer.data)
 
-
-
+@api_view(['GET'])
+def exList(request):
+    expe = experimento.objects.all()
+    serializer = ExperimentoSerializer(expe,many=True)
+    return Response(serializer.data)
