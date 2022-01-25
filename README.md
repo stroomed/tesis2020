@@ -6,3 +6,6 @@ Realizado por:
  - Fabricio Guzmán
  - Ricardo Gutiérrez
  - Nicol Quintuy
+
+Profesor guía:
+ - Cristhian Aguilera
