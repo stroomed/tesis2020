@@ -1,4 +1,4 @@
-# tesis2020
+# Primer semestre 2020
 ## Taller de Proyecto de Software 2020
 
 Realizado por:
